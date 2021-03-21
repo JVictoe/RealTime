@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Lägg till kommandon för att klippa ut, kopiera och klistra in på kontextmenyn och i menyfliksområdet i Office Online.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopiera och klistra in för Office Online"
+   }
+}

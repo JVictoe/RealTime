@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Utilize a área de transferência no Office Online para cortar, copiar e colar a partir do menu de contexto e da barra do friso."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Copiar e Colar do Office Online"
+   }
+}

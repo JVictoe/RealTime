@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online’is saate lõikelauda kasutades lõigata, kopeerida ja kleepida nii kontekstimenüü kui ka menüülindi kaudu.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopeerimine ja kleepimine Office Online’is"
+   }
+}

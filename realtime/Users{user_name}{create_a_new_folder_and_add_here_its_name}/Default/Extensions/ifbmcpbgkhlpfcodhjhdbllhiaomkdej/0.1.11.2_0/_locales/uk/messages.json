@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Використовуйте буфер обміну в програмах Office Online, щоб вирізати, копіювати та вставляти дані за допомогою контекстного меню та панелі стрічки."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Копіювання й вставлення в програмах Office Online"
+   }
+}

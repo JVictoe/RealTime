@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Use a área de transferência no Office Online para cortar, copiar e colar através do menu que aparece com um clique do botão direito do mouse e da barra da faixa de opções."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Recursos Copiar e Colar do Office Online"
+   }
+}

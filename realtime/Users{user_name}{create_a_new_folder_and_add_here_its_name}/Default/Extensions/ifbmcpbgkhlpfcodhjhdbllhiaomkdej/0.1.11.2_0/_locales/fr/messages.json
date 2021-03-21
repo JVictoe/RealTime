@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Utilisez votre Presse-papiers dans Office Online pour couper, copier et coller des éléments à partir du menu contextuel et de la barre du ruban."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online - Copier et coller"
+   }
+}

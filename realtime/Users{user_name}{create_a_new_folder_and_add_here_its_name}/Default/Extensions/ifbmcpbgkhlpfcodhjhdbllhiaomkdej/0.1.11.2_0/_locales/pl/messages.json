@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Używaj schowka w aplikacjach Office Online, aby móc wycinać, kopiować i wklejać za pomocą menu dostępnego po kliknięciu prawym przyciskiem myszy i paska wstążki."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopiowanie i wklejanie w aplikacjach Office Online"
+   }
+}

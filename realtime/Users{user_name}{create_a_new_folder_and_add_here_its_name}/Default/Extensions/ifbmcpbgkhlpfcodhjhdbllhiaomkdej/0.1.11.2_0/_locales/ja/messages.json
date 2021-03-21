@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online でクリップボードを使って、右クリック メニューやリボン バーから、切り取り、コピー、貼り付けができます。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online Copy and Paste"
+   }
+}

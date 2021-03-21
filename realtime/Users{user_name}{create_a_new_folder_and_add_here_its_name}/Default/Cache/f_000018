@@ -1,0 +1,3230 @@
+define(['dart_sdk', 'packages/responsive_framework/utils/responsive_utils.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/widgets/scroll_view.dart', 'packages/flutter/src/painting/alignment.dart', 'packages/flutter/src/painting/box_fit.dart', 'packages/flutter/src/rendering/flex.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/flutter/src/material/colors.dart', 'packages/flutter/src/widgets/icon.dart', 'packages/flutter_icons/src/material_community_icons.dart', 'packages/flutter/src/rendering/wrap.dart', 'packages/flutter_icons/src/font_awesome.dart', 'packages/auto_size_text/auto_size_text.dart', 'packages/flutter/src/rendering/paragraph.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/painting/border_radius.dart', 'packages/flutter/src/widgets/async.dart'], (function load__packages__realtime__pages__infocidade__info_cidades_dart(dart_sdk, packages__responsive_framework__utils__responsive_utils$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__widgets__scroll_view$46dart, packages__flutter__src__painting__alignment$46dart, packages__flutter__src__painting__box_fit$46dart, packages__flutter__src__rendering__flex$46dart, packages__flutter__src__painting__strut_style$46dart, packages__flutter__src__material__colors$46dart, packages__flutter__src__widgets__icon$46dart, packages__flutter_icons__src__material_community_icons$46dart, packages__flutter__src__rendering__wrap$46dart, packages__flutter_icons__src__font_awesome$46dart, packages__auto_size_text__auto_size_text$46dart, packages__flutter__src__rendering__paragraph$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__painting__border_radius$46dart, packages__flutter__src__widgets__async$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _interceptors = dart_sdk._interceptors;
+  const ui = dart_sdk.ui;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const responsive_wrapper = packages__responsive_framework__utils__responsive_utils$46dart.responsive_wrapper;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const container = packages__flutter__src__widgets__widget_span$46dart.src__widgets__container;
+  const image = packages__flutter__src__widgets__widget_span$46dart.src__widgets__image;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const text = packages__flutter__src__widgets__widget_span$46dart.src__widgets__text;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const scroll_view = packages__flutter__src__widgets__scroll_view$46dart.src__widgets__scroll_view;
+  const alignment = packages__flutter__src__painting__alignment$46dart.src__painting__alignment;
+  const box_fit = packages__flutter__src__painting__box_fit$46dart.src__painting__box_fit;
+  const flex = packages__flutter__src__rendering__flex$46dart.src__rendering__flex;
+  const text_style = packages__flutter__src__painting__strut_style$46dart.src__painting__text_style;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const icon = packages__flutter__src__widgets__icon$46dart.src__widgets__icon;
+  const material_community_icons = packages__flutter_icons__src__material_community_icons$46dart.src__material_community_icons;
+  const wrap = packages__flutter__src__rendering__wrap$46dart.src__rendering__wrap;
+  const font_awesome = packages__flutter_icons__src__font_awesome$46dart.src__font_awesome;
+  const auto_size_text = packages__auto_size_text__auto_size_text$46dart.auto_size_text;
+  const paragraph = packages__flutter__src__rendering__paragraph$46dart.src__rendering__paragraph;
+  const divider = packages__flutter__src__material__icon_button$46dart.src__material__divider;
+  const border_radius = packages__flutter__src__painting__border_radius$46dart.src__painting__border_radius;
+  const async = packages__flutter__src__widgets__async$46dart.src__widgets__async;
+  var info_cidades = Object.create(dart.library);
+  var $add = dartx.add;
+  dart._checkModuleNullSafetyMode(false);
+  var T = {
+    _LocationL: () => (T._LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))(),
+    WidgetL: () => (T.WidgetL = dart.constFn(dart.legacy(framework.Widget)))(),
+    JSArrayOfWidgetL: () => (T.JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(T.WidgetL())))()
+  };
+  var T$Eval = Object.assign({
+    _: () => T$Eval
+  }, T);
+  var S = {
+    _: () => S
+  };
+  var S$Eval = Object.assign({
+    _: () => S$Eval
+  }, S);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "name",
+        [_Location_column]: 25,
+        [_Location_line]: 30,
+        [_Location_file]: null
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "fit",
+        [_Location_column]: 25,
+        [_Location_line]: 31,
+        [_Location_file]: null
+      });
+    },
+    get C1() {
+      return C[1] = dart.constList([C[2] || CT.C2, C[3] || CT.C3], T._LocationL());
+    },
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 36,
+        [_Location_line]: 29,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "alignment",
+        [_Location_column]: 23,
+        [_Location_line]: 26,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 23,
+        [_Location_line]: 27,
+        [_Location_file]: null
+      });
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 28,
+        [_Location_file]: null
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 23,
+        [_Location_line]: 29,
+        [_Location_file]: null
+      });
+    },
+    get C5() {
+      return C[5] = dart.constList([C[6] || CT.C6, C[7] || CT.C7, C[8] || CT.C8, C[9] || CT.C9], T._LocationL());
+    },
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[5] || CT.C5,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 25,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "name",
+        [_Location_column]: 25,
+        [_Location_line]: 39,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "fit",
+        [_Location_column]: 25,
+        [_Location_line]: 40,
+        [_Location_file]: null
+      });
+    },
+    get C11() {
+      return C[11] = dart.constList([C[12] || CT.C12, C[13] || CT.C13], T._LocationL());
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[11] || CT.C11,
+        [_Location_name]: null,
+        [_Location_column]: 36,
+        [_Location_line]: 38,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "alignment",
+        [_Location_column]: 23,
+        [_Location_line]: 35,
+        [_Location_file]: null
+      });
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 23,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 37,
+        [_Location_file]: null
+      });
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 23,
+        [_Location_line]: 38,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C[15] = dart.constList([C[16] || CT.C16, C[17] || CT.C17, C[18] || CT.C18, C[19] || CT.C19], T._LocationL());
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[15] || CT.C15,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 34,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C22() {
+      return C[22] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 64,
+        [_Location_line]: 47,
+        [_Location_file]: null
+      });
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 27,
+        [_Location_line]: 48,
+        [_Location_file]: null
+      });
+    },
+    get C21() {
+      return C[21] = dart.constList([C[22] || CT.C22, C[23] || CT.C23], T._LocationL());
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[21] || CT.C21,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 46,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 68,
+        [_Location_line]: 53,
+        [_Location_file]: null
+      });
+    },
+    get C27() {
+      return C[27] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 31,
+        [_Location_line]: 54,
+        [_Location_file]: null
+      });
+    },
+    get C25() {
+      return C[25] = dart.constList([C[26] || CT.C26, C[27] || CT.C27], T._LocationL());
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[25] || CT.C25,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 52,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 52,
+        [_Location_line]: 57,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C[31] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 29,
+        [_Location_line]: 58,
+        [_Location_file]: null
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 29,
+        [_Location_line]: 59,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C[29] = dart.constList([C[30] || CT.C30, C[31] || CT.C31, C[32] || CT.C32], T._LocationL());
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[29] || CT.C29,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 56,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 25,
+        [_Location_line]: 51,
+        [_Location_file]: null
+      });
+    },
+    get C34() {
+      return C[34] = dart.constList([C[35] || CT.C35], T._LocationL());
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[34] || CT.C34,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 50,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C38() {
+      return C[38] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 82,
+        [_Location_line]: 64,
+        [_Location_file]: null
+      });
+    },
+    get C39() {
+      return C[39] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 27,
+        [_Location_line]: 65,
+        [_Location_file]: null
+      });
+    },
+    get C37() {
+      return C[37] = dart.constList([C[38] || CT.C38, C[39] || CT.C39], T._LocationL());
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[37] || CT.C37,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 63,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C42() {
+      return C[42] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 21,
+        [_Location_line]: 44,
+        [_Location_file]: null
+      });
+    },
+    get C43() {
+      return C[43] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 21,
+        [_Location_line]: 45,
+        [_Location_file]: null
+      });
+    },
+    get C41() {
+      return C[41] = dart.constList([C[42] || CT.C42, C[43] || CT.C43], T._LocationL());
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[41] || CT.C41,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 43,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C46() {
+      return C[46] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 17,
+        [_Location_line]: 23,
+        [_Location_file]: null
+      });
+    },
+    get C45() {
+      return C[45] = dart.constList([C[46] || CT.C46], T._LocationL());
+    },
+    get C44() {
+      return C[44] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[45] || CT.C45,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 22,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C50() {
+      return C[50] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 17,
+        [_Location_line]: 72,
+        [_Location_file]: null
+      });
+    },
+    get C49() {
+      return C[49] = dart.constList([C[50] || CT.C50], T._LocationL());
+    },
+    get C48() {
+      return C[48] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[49] || CT.C49,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 71,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C47() {
+      return C[47] = dart.const({
+        __proto__: basic.SizedBox.prototype,
+        [Widget__location]: C[48] || CT.C48,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: null,
+        [SizedBox_height]: 50,
+        [SizedBox_width]: null
+      });
+    },
+    get C53() {
+      return C[53] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 35,
+        [_Location_line]: 80,
+        [_Location_file]: null
+      });
+    },
+    get C54() {
+      return C[54] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 23,
+        [_Location_line]: 81,
+        [_Location_file]: null
+      });
+    },
+    get C55() {
+      return C[55] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 23,
+        [_Location_line]: 82,
+        [_Location_file]: null
+      });
+    },
+    get C52() {
+      return C[52] = dart.constList([C[53] || CT.C53, C[54] || CT.C54, C[55] || CT.C55], T._LocationL());
+    },
+    get C51() {
+      return C[51] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[52] || CT.C52,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 79,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C58() {
+      return C[58] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 74,
+        [_Location_line]: 85,
+        [_Location_file]: null
+      });
+    },
+    get C59() {
+      return C[59] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 23,
+        [_Location_line]: 86,
+        [_Location_file]: null
+      });
+    },
+    get C60() {
+      return C[60] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 23,
+        [_Location_line]: 87,
+        [_Location_file]: null
+      });
+    },
+    get C61() {
+      return C[61] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 23,
+        [_Location_line]: 88,
+        [_Location_file]: null
+      });
+    },
+    get C62() {
+      return C[62] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 23,
+        [_Location_line]: 89,
+        [_Location_file]: null
+      });
+    },
+    get C57() {
+      return C[57] = dart.constList([C[58] || CT.C58, C[59] || CT.C59, C[60] || CT.C60, C[61] || CT.C61, C[62] || CT.C62], T._LocationL());
+    },
+    get C56() {
+      return C[56] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[57] || CT.C57,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 84,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C65() {
+      return C[65] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 46,
+        [_Location_line]: 92,
+        [_Location_file]: null
+      });
+    },
+    get C66() {
+      return C[66] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 23,
+        [_Location_line]: 93,
+        [_Location_file]: null
+      });
+    },
+    get C67() {
+      return C[67] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 23,
+        [_Location_line]: 94,
+        [_Location_file]: null
+      });
+    },
+    get C64() {
+      return C[64] = dart.constList([C[65] || CT.C65, C[66] || CT.C66, C[67] || CT.C67], T._LocationL());
+    },
+    get C63() {
+      return C[63] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[64] || CT.C64,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 91,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C71() {
+      return C[71] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 97,
+        [_Location_file]: null
+      });
+    },
+    get C72() {
+      return C[72] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 23,
+        [_Location_line]: 98,
+        [_Location_file]: null
+      });
+    },
+    get C73() {
+      return C[73] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 23,
+        [_Location_line]: 99,
+        [_Location_file]: null
+      });
+    },
+    get C70() {
+      return C[70] = dart.constList([C[71] || CT.C71, C[72] || CT.C72, C[73] || CT.C73], T._LocationL());
+    },
+    get C69() {
+      return C[69] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[70] || CT.C70,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 96,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C77() {
+      return C[77] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 46,
+        [_Location_line]: 99,
+        [_Location_file]: null
+      });
+    },
+    get C76() {
+      return C[76] = dart.constList([C[77] || CT.C77], T._LocationL());
+    },
+    get C75() {
+      return C[75] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[76] || CT.C76,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 99,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C78() {
+      return C[78] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278190080.0
+      });
+    },
+    get C74() {
+      return C[74] = dart.const({
+        __proto__: divider.VerticalDivider.prototype,
+        [Widget__location]: C[75] || CT.C75,
+        [Widget_key]: null,
+        [VerticalDivider_color]: C[78] || CT.C78,
+        [VerticalDivider_endIndent]: null,
+        [VerticalDivider_indent]: null,
+        [VerticalDivider_thickness]: null,
+        [VerticalDivider_width]: null
+      });
+    },
+    get C68() {
+      return C[68] = dart.const({
+        __proto__: basic.SizedBox.prototype,
+        [Widget__location]: C[69] || CT.C69,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: C[74] || CT.C74,
+        [SizedBox_height]: 20,
+        [SizedBox_width]: 20
+      });
+    },
+    get C81() {
+      return C[81] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 35,
+        [_Location_line]: 102,
+        [_Location_file]: null
+      });
+    },
+    get C82() {
+      return C[82] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 23,
+        [_Location_line]: 103,
+        [_Location_file]: null
+      });
+    },
+    get C83() {
+      return C[83] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 23,
+        [_Location_line]: 104,
+        [_Location_file]: null
+      });
+    },
+    get C80() {
+      return C[80] = dart.constList([C[81] || CT.C81, C[82] || CT.C82, C[83] || CT.C83], T._LocationL());
+    },
+    get C79() {
+      return C[79] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[80] || CT.C80,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 101,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C86() {
+      return C[86] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 75,
+        [_Location_line]: 107,
+        [_Location_file]: null
+      });
+    },
+    get C87() {
+      return C[87] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 23,
+        [_Location_line]: 108,
+        [_Location_file]: null
+      });
+    },
+    get C88() {
+      return C[88] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 23,
+        [_Location_line]: 109,
+        [_Location_file]: null
+      });
+    },
+    get C89() {
+      return C[89] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 23,
+        [_Location_line]: 110,
+        [_Location_file]: null
+      });
+    },
+    get C90() {
+      return C[90] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 23,
+        [_Location_line]: 111,
+        [_Location_file]: null
+      });
+    },
+    get C85() {
+      return C[85] = dart.constList([C[86] || CT.C86, C[87] || CT.C87, C[88] || CT.C88, C[89] || CT.C89, C[90] || CT.C90], T._LocationL());
+    },
+    get C84() {
+      return C[84] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[85] || CT.C85,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 106,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C93() {
+      return C[93] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 46,
+        [_Location_line]: 114,
+        [_Location_file]: null
+      });
+    },
+    get C94() {
+      return C[94] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "size",
+        [_Location_column]: 23,
+        [_Location_line]: 115,
+        [_Location_file]: null
+      });
+    },
+    get C95() {
+      return C[95] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 23,
+        [_Location_line]: 116,
+        [_Location_file]: null
+      });
+    },
+    get C92() {
+      return C[92] = dart.constList([C[93] || CT.C93, C[94] || CT.C94, C[95] || CT.C95], T._LocationL());
+    },
+    get C91() {
+      return C[91] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[92] || CT.C92,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 113,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C99() {
+      return C[99] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 119,
+        [_Location_file]: null
+      });
+    },
+    get C100() {
+      return C[100] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 23,
+        [_Location_line]: 120,
+        [_Location_file]: null
+      });
+    },
+    get C101() {
+      return C[101] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 23,
+        [_Location_line]: 121,
+        [_Location_file]: null
+      });
+    },
+    get C98() {
+      return C[98] = dart.constList([C[99] || CT.C99, C[100] || CT.C100, C[101] || CT.C101], T._LocationL());
+    },
+    get C97() {
+      return C[97] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[98] || CT.C98,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 118,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C105() {
+      return C[105] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 46,
+        [_Location_line]: 121,
+        [_Location_file]: null
+      });
+    },
+    get C104() {
+      return C[104] = dart.constList([C[105] || CT.C105], T._LocationL());
+    },
+    get C103() {
+      return C[103] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[104] || CT.C104,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 121,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C102() {
+      return C[102] = dart.const({
+        __proto__: divider.VerticalDivider.prototype,
+        [Widget__location]: C[103] || CT.C103,
+        [Widget_key]: null,
+        [VerticalDivider_color]: C[78] || CT.C78,
+        [VerticalDivider_endIndent]: null,
+        [VerticalDivider_indent]: null,
+        [VerticalDivider_thickness]: null,
+        [VerticalDivider_width]: null
+      });
+    },
+    get C96() {
+      return C[96] = dart.const({
+        __proto__: basic.SizedBox.prototype,
+        [Widget__location]: C[97] || CT.C97,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: C[102] || CT.C102,
+        [SizedBox_height]: 20,
+        [SizedBox_width]: 30
+      });
+    },
+    get C108() {
+      return C[108] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 49,
+        [_Location_line]: 123,
+        [_Location_file]: null
+      });
+    },
+    get C109() {
+      return C[109] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 64,
+        [_Location_line]: 123,
+        [_Location_file]: null
+      });
+    },
+    get C107() {
+      return C[107] = dart.constList([C[108] || CT.C108, C[109] || CT.C109], T._LocationL());
+    },
+    get C106() {
+      return C[106] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[107] || CT.C107,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 123,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C112() {
+      return C[112] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 67,
+        [_Location_line]: 125,
+        [_Location_file]: null
+      });
+    },
+    get C113() {
+      return C[113] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 23,
+        [_Location_line]: 126,
+        [_Location_file]: null
+      });
+    },
+    get C114() {
+      return C[114] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 23,
+        [_Location_line]: 127,
+        [_Location_file]: null
+      });
+    },
+    get C115() {
+      return C[115] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 23,
+        [_Location_line]: 128,
+        [_Location_file]: null
+      });
+    },
+    get C116() {
+      return C[116] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 23,
+        [_Location_line]: 129,
+        [_Location_file]: null
+      });
+    },
+    get C111() {
+      return C[111] = dart.constList([C[112] || CT.C112, C[113] || CT.C113, C[114] || CT.C114, C[115] || CT.C115, C[116] || CT.C116], T._LocationL());
+    },
+    get C110() {
+      return C[110] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[111] || CT.C111,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 124,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C120() {
+      return C[120] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 132,
+        [_Location_file]: null
+      });
+    },
+    get C121() {
+      return C[121] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 23,
+        [_Location_line]: 133,
+        [_Location_file]: null
+      });
+    },
+    get C122() {
+      return C[122] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 23,
+        [_Location_line]: 134,
+        [_Location_file]: null
+      });
+    },
+    get C119() {
+      return C[119] = dart.constList([C[120] || CT.C120, C[121] || CT.C121, C[122] || CT.C122], T._LocationL());
+    },
+    get C118() {
+      return C[118] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[119] || CT.C119,
+        [_Location_name]: null,
+        [_Location_column]: 27,
+        [_Location_line]: 131,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C126() {
+      return C[126] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 46,
+        [_Location_line]: 134,
+        [_Location_file]: null
+      });
+    },
+    get C125() {
+      return C[125] = dart.constList([C[126] || CT.C126], T._LocationL());
+    },
+    get C124() {
+      return C[124] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[125] || CT.C125,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 134,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C123() {
+      return C[123] = dart.const({
+        __proto__: divider.VerticalDivider.prototype,
+        [Widget__location]: C[124] || CT.C124,
+        [Widget_key]: null,
+        [VerticalDivider_color]: C[78] || CT.C78,
+        [VerticalDivider_endIndent]: null,
+        [VerticalDivider_indent]: null,
+        [VerticalDivider_thickness]: null,
+        [VerticalDivider_width]: null
+      });
+    },
+    get C117() {
+      return C[117] = dart.const({
+        __proto__: basic.SizedBox.prototype,
+        [Widget__location]: C[118] || CT.C118,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: C[123] || CT.C123,
+        [SizedBox_height]: 20,
+        [SizedBox_width]: 30
+      });
+    },
+    get C129() {
+      return C[129] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 51,
+        [_Location_line]: 139,
+        [_Location_file]: null
+      });
+    },
+    get C130() {
+      return C[130] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 66,
+        [_Location_line]: 139,
+        [_Location_file]: null
+      });
+    },
+    get C128() {
+      return C[128] = dart.constList([C[129] || CT.C129, C[130] || CT.C130], T._LocationL());
+    },
+    get C127() {
+      return C[127] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[128] || CT.C128,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 139,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C133() {
+      return C[133] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 51,
+        [_Location_line]: 143,
+        [_Location_file]: null
+      });
+    },
+    get C134() {
+      return C[134] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 74,
+        [_Location_line]: 143,
+        [_Location_file]: null
+      });
+    },
+    get C132() {
+      return C[132] = dart.constList([C[133] || CT.C133, C[134] || CT.C134], T._LocationL());
+    },
+    get C131() {
+      return C[131] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[132] || CT.C132,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 143,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C137() {
+      return C[137] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 51,
+        [_Location_line]: 150,
+        [_Location_file]: null
+      });
+    },
+    get C138() {
+      return C[138] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 74,
+        [_Location_line]: 150,
+        [_Location_file]: null
+      });
+    },
+    get C136() {
+      return C[136] = dart.constList([C[137] || CT.C137, C[138] || CT.C138], T._LocationL());
+    },
+    get C135() {
+      return C[135] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[136] || CT.C136,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 150,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C141() {
+      return C[141] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 82,
+        [_Location_line]: 152,
+        [_Location_file]: null
+      });
+    },
+    get C142() {
+      return C[142] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 23,
+        [_Location_line]: 153,
+        [_Location_file]: null
+      });
+    },
+    get C143() {
+      return C[143] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 23,
+        [_Location_line]: 154,
+        [_Location_file]: null
+      });
+    },
+    get C144() {
+      return C[144] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 23,
+        [_Location_line]: 155,
+        [_Location_file]: null
+      });
+    },
+    get C145() {
+      return C[145] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 23,
+        [_Location_line]: 156,
+        [_Location_file]: null
+      });
+    },
+    get C140() {
+      return C[140] = dart.constList([C[141] || CT.C141, C[142] || CT.C142, C[143] || CT.C143, C[144] || CT.C144, C[145] || CT.C145], T._LocationL());
+    },
+    get C139() {
+      return C[139] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[140] || CT.C140,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 151,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C148() {
+      return C[148] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "alignment",
+        [_Location_column]: 19,
+        [_Location_line]: 77,
+        [_Location_file]: null
+      });
+    },
+    get C149() {
+      return C[149] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 19,
+        [_Location_line]: 78,
+        [_Location_file]: null
+      });
+    },
+    get C147() {
+      return C[147] = dart.constList([C[148] || CT.C148, C[149] || CT.C149], T._LocationL());
+    },
+    get C146() {
+      return C[146] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[147] || CT.C147,
+        [_Location_name]: null,
+        [_Location_column]: 24,
+        [_Location_line]: 76,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C152() {
+      return C[152] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 17,
+        [_Location_line]: 75,
+        [_Location_file]: null
+      });
+    },
+    get C153() {
+      return C[153] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 17,
+        [_Location_line]: 76,
+        [_Location_file]: null
+      });
+    },
+    get C151() {
+      return C[151] = dart.constList([C[152] || CT.C152, C[153] || CT.C153], T._LocationL());
+    },
+    get C150() {
+      return C[150] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[151] || CT.C151,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 74,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C156() {
+      return C[156] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 17,
+        [_Location_line]: 162,
+        [_Location_file]: null
+      });
+    },
+    get C155() {
+      return C[155] = dart.constList([C[156] || CT.C156], T._LocationL());
+    },
+    get C154() {
+      return C[154] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[155] || CT.C155,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 161,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C159() {
+      return C[159] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 85,
+        [_Location_line]: 182,
+        [_Location_file]: null
+      });
+    },
+    get C160() {
+      return C[160] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 183,
+        [_Location_file]: null
+      });
+    },
+    get C161() {
+      return C[161] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 185,
+        [_Location_file]: null
+      });
+    },
+    get C162() {
+      return C[162] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 186,
+        [_Location_file]: null
+      });
+    },
+    get C163() {
+      return C[163] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 187,
+        [_Location_file]: null
+      });
+    },
+    get C158() {
+      return C[158] = dart.constList([C[159] || CT.C159, C[160] || CT.C160, C[161] || CT.C161, C[162] || CT.C162, C[163] || CT.C163], T._LocationL());
+    },
+    get C157() {
+      return C[157] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[158] || CT.C158,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 181,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C166() {
+      return C[166] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 181,
+        [_Location_file]: null
+      });
+    },
+    get C165() {
+      return C[165] = dart.constList([C[166] || CT.C166], T._LocationL());
+    },
+    get C164() {
+      return C[164] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[165] || CT.C165,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 180,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C169() {
+      return C[169] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 88,
+        [_Location_line]: 192,
+        [_Location_file]: null
+      });
+    },
+    get C170() {
+      return C[170] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 193,
+        [_Location_file]: null
+      });
+    },
+    get C171() {
+      return C[171] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 195,
+        [_Location_file]: null
+      });
+    },
+    get C172() {
+      return C[172] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 196,
+        [_Location_file]: null
+      });
+    },
+    get C173() {
+      return C[173] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 197,
+        [_Location_file]: null
+      });
+    },
+    get C168() {
+      return C[168] = dart.constList([C[169] || CT.C169, C[170] || CT.C170, C[171] || CT.C171, C[172] || CT.C172, C[173] || CT.C173], T._LocationL());
+    },
+    get C167() {
+      return C[167] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[168] || CT.C168,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 191,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C176() {
+      return C[176] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 191,
+        [_Location_file]: null
+      });
+    },
+    get C175() {
+      return C[175] = dart.constList([C[176] || CT.C176], T._LocationL());
+    },
+    get C174() {
+      return C[174] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[175] || CT.C175,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 190,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C179() {
+      return C[179] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 202,
+        [_Location_file]: null
+      });
+    },
+    get C180() {
+      return C[180] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 203,
+        [_Location_file]: null
+      });
+    },
+    get C181() {
+      return C[181] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 205,
+        [_Location_file]: null
+      });
+    },
+    get C182() {
+      return C[182] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 206,
+        [_Location_file]: null
+      });
+    },
+    get C183() {
+      return C[183] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 207,
+        [_Location_file]: null
+      });
+    },
+    get C178() {
+      return C[178] = dart.constList([C[179] || CT.C179, C[180] || CT.C180, C[181] || CT.C181, C[182] || CT.C182, C[183] || CT.C183], T._LocationL());
+    },
+    get C177() {
+      return C[177] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[178] || CT.C178,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 201,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C186() {
+      return C[186] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 201,
+        [_Location_file]: null
+      });
+    },
+    get C185() {
+      return C[185] = dart.constList([C[186] || CT.C186], T._LocationL());
+    },
+    get C184() {
+      return C[184] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[185] || CT.C185,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 200,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C189() {
+      return C[189] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 212,
+        [_Location_file]: null
+      });
+    },
+    get C190() {
+      return C[190] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 213,
+        [_Location_file]: null
+      });
+    },
+    get C191() {
+      return C[191] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 215,
+        [_Location_file]: null
+      });
+    },
+    get C192() {
+      return C[192] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 216,
+        [_Location_file]: null
+      });
+    },
+    get C193() {
+      return C[193] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 217,
+        [_Location_file]: null
+      });
+    },
+    get C188() {
+      return C[188] = dart.constList([C[189] || CT.C189, C[190] || CT.C190, C[191] || CT.C191, C[192] || CT.C192, C[193] || CT.C193], T._LocationL());
+    },
+    get C187() {
+      return C[187] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[188] || CT.C188,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 211,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C196() {
+      return C[196] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 211,
+        [_Location_file]: null
+      });
+    },
+    get C195() {
+      return C[195] = dart.constList([C[196] || CT.C196], T._LocationL());
+    },
+    get C194() {
+      return C[194] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[195] || CT.C195,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 210,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C199() {
+      return C[199] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 92,
+        [_Location_line]: 222,
+        [_Location_file]: null
+      });
+    },
+    get C200() {
+      return C[200] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 223,
+        [_Location_file]: null
+      });
+    },
+    get C201() {
+      return C[201] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 226,
+        [_Location_file]: null
+      });
+    },
+    get C202() {
+      return C[202] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 227,
+        [_Location_file]: null
+      });
+    },
+    get C203() {
+      return C[203] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 228,
+        [_Location_file]: null
+      });
+    },
+    get C198() {
+      return C[198] = dart.constList([C[199] || CT.C199, C[200] || CT.C200, C[201] || CT.C201, C[202] || CT.C202, C[203] || CT.C203], T._LocationL());
+    },
+    get C197() {
+      return C[197] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[198] || CT.C198,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 221,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C206() {
+      return C[206] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 221,
+        [_Location_file]: null
+      });
+    },
+    get C205() {
+      return C[205] = dart.constList([C[206] || CT.C206], T._LocationL());
+    },
+    get C204() {
+      return C[204] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[205] || CT.C205,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 220,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C209() {
+      return C[209] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 27,
+        [_Location_line]: 178,
+        [_Location_file]: null
+      });
+    },
+    get C210() {
+      return C[210] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 27,
+        [_Location_line]: 179,
+        [_Location_file]: null
+      });
+    },
+    get C208() {
+      return C[208] = dart.constList([C[209] || CT.C209, C[210] || CT.C210], T._LocationL());
+    },
+    get C207() {
+      return C[207] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[208] || CT.C208,
+        [_Location_name]: null,
+        [_Location_column]: 32,
+        [_Location_line]: 177,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C213() {
+      return C[213] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 25,
+        [_Location_line]: 175,
+        [_Location_file]: null
+      });
+    },
+    get C214() {
+      return C[214] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 25,
+        [_Location_line]: 176,
+        [_Location_file]: null
+      });
+    },
+    get C215() {
+      return C[215] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 25,
+        [_Location_line]: 177,
+        [_Location_file]: null
+      });
+    },
+    get C212() {
+      return C[212] = dart.constList([C[213] || CT.C213, C[214] || CT.C214, C[215] || CT.C215], T._LocationL());
+    },
+    get C211() {
+      return C[211] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[212] || CT.C212,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 174,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C218() {
+      return C[218] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 39,
+        [_Location_line]: 234,
+        [_Location_file]: null
+      });
+    },
+    get C217() {
+      return C[217] = dart.constList([C[218] || CT.C218], T._LocationL());
+    },
+    get C216() {
+      return C[216] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[217] || CT.C217,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 234,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C221() {
+      return C[221] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 85,
+        [_Location_line]: 243,
+        [_Location_file]: null
+      });
+    },
+    get C222() {
+      return C[222] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 244,
+        [_Location_file]: null
+      });
+    },
+    get C223() {
+      return C[223] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 246,
+        [_Location_file]: null
+      });
+    },
+    get C224() {
+      return C[224] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 247,
+        [_Location_file]: null
+      });
+    },
+    get C225() {
+      return C[225] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 248,
+        [_Location_file]: null
+      });
+    },
+    get C220() {
+      return C[220] = dart.constList([C[221] || CT.C221, C[222] || CT.C222, C[223] || CT.C223, C[224] || CT.C224, C[225] || CT.C225], T._LocationL());
+    },
+    get C219() {
+      return C[219] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[220] || CT.C220,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 242,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C228() {
+      return C[228] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 242,
+        [_Location_file]: null
+      });
+    },
+    get C227() {
+      return C[227] = dart.constList([C[228] || CT.C228], T._LocationL());
+    },
+    get C226() {
+      return C[226] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[227] || CT.C227,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 241,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C231() {
+      return C[231] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 88,
+        [_Location_line]: 253,
+        [_Location_file]: null
+      });
+    },
+    get C232() {
+      return C[232] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 254,
+        [_Location_file]: null
+      });
+    },
+    get C233() {
+      return C[233] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 256,
+        [_Location_file]: null
+      });
+    },
+    get C234() {
+      return C[234] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 257,
+        [_Location_file]: null
+      });
+    },
+    get C235() {
+      return C[235] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 258,
+        [_Location_file]: null
+      });
+    },
+    get C230() {
+      return C[230] = dart.constList([C[231] || CT.C231, C[232] || CT.C232, C[233] || CT.C233, C[234] || CT.C234, C[235] || CT.C235], T._LocationL());
+    },
+    get C229() {
+      return C[229] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[230] || CT.C230,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 252,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C238() {
+      return C[238] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 252,
+        [_Location_file]: null
+      });
+    },
+    get C237() {
+      return C[237] = dart.constList([C[238] || CT.C238], T._LocationL());
+    },
+    get C236() {
+      return C[236] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[237] || CT.C237,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 251,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C241() {
+      return C[241] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 263,
+        [_Location_file]: null
+      });
+    },
+    get C242() {
+      return C[242] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 264,
+        [_Location_file]: null
+      });
+    },
+    get C243() {
+      return C[243] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 266,
+        [_Location_file]: null
+      });
+    },
+    get C244() {
+      return C[244] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 267,
+        [_Location_file]: null
+      });
+    },
+    get C245() {
+      return C[245] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 268,
+        [_Location_file]: null
+      });
+    },
+    get C240() {
+      return C[240] = dart.constList([C[241] || CT.C241, C[242] || CT.C242, C[243] || CT.C243, C[244] || CT.C244, C[245] || CT.C245], T._LocationL());
+    },
+    get C239() {
+      return C[239] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[240] || CT.C240,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 262,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C248() {
+      return C[248] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 262,
+        [_Location_file]: null
+      });
+    },
+    get C247() {
+      return C[247] = dart.constList([C[248] || CT.C248], T._LocationL());
+    },
+    get C246() {
+      return C[246] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[247] || CT.C247,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 261,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C251() {
+      return C[251] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 273,
+        [_Location_file]: null
+      });
+    },
+    get C252() {
+      return C[252] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 274,
+        [_Location_file]: null
+      });
+    },
+    get C253() {
+      return C[253] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 276,
+        [_Location_file]: null
+      });
+    },
+    get C254() {
+      return C[254] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 277,
+        [_Location_file]: null
+      });
+    },
+    get C255() {
+      return C[255] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 278,
+        [_Location_file]: null
+      });
+    },
+    get C250() {
+      return C[250] = dart.constList([C[251] || CT.C251, C[252] || CT.C252, C[253] || CT.C253, C[254] || CT.C254, C[255] || CT.C255], T._LocationL());
+    },
+    get C249() {
+      return C[249] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[250] || CT.C250,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 272,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C258() {
+      return C[258] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 272,
+        [_Location_file]: null
+      });
+    },
+    get C257() {
+      return C[257] = dart.constList([C[258] || CT.C258], T._LocationL());
+    },
+    get C256() {
+      return C[256] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[257] || CT.C257,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 271,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C261() {
+      return C[261] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 92,
+        [_Location_line]: 283,
+        [_Location_file]: null
+      });
+    },
+    get C262() {
+      return C[262] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 284,
+        [_Location_file]: null
+      });
+    },
+    get C263() {
+      return C[263] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 287,
+        [_Location_file]: null
+      });
+    },
+    get C264() {
+      return C[264] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 288,
+        [_Location_file]: null
+      });
+    },
+    get C265() {
+      return C[265] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 289,
+        [_Location_file]: null
+      });
+    },
+    get C260() {
+      return C[260] = dart.constList([C[261] || CT.C261, C[262] || CT.C262, C[263] || CT.C263, C[264] || CT.C264, C[265] || CT.C265], T._LocationL());
+    },
+    get C259() {
+      return C[259] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[260] || CT.C260,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 282,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C268() {
+      return C[268] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 282,
+        [_Location_file]: null
+      });
+    },
+    get C267() {
+      return C[267] = dart.constList([C[268] || CT.C268], T._LocationL());
+    },
+    get C266() {
+      return C[266] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[267] || CT.C267,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 281,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C271() {
+      return C[271] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 27,
+        [_Location_line]: 239,
+        [_Location_file]: null
+      });
+    },
+    get C272() {
+      return C[272] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 27,
+        [_Location_line]: 240,
+        [_Location_file]: null
+      });
+    },
+    get C270() {
+      return C[270] = dart.constList([C[271] || CT.C271, C[272] || CT.C272], T._LocationL());
+    },
+    get C269() {
+      return C[269] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[270] || CT.C270,
+        [_Location_name]: null,
+        [_Location_column]: 32,
+        [_Location_line]: 238,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C275() {
+      return C[275] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 25,
+        [_Location_line]: 236,
+        [_Location_file]: null
+      });
+    },
+    get C276() {
+      return C[276] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 25,
+        [_Location_line]: 237,
+        [_Location_file]: null
+      });
+    },
+    get C277() {
+      return C[277] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 25,
+        [_Location_line]: 238,
+        [_Location_file]: null
+      });
+    },
+    get C274() {
+      return C[274] = dart.constList([C[275] || CT.C275, C[276] || CT.C276, C[277] || CT.C277], T._LocationL());
+    },
+    get C273() {
+      return C[273] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[274] || CT.C274,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 235,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C280() {
+      return C[280] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 39,
+        [_Location_line]: 295,
+        [_Location_file]: null
+      });
+    },
+    get C279() {
+      return C[279] = dart.constList([C[280] || CT.C280], T._LocationL());
+    },
+    get C278() {
+      return C[278] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[279] || CT.C279,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 295,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C283() {
+      return C[283] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 85,
+        [_Location_line]: 304,
+        [_Location_file]: null
+      });
+    },
+    get C284() {
+      return C[284] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 305,
+        [_Location_file]: null
+      });
+    },
+    get C285() {
+      return C[285] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 307,
+        [_Location_file]: null
+      });
+    },
+    get C286() {
+      return C[286] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 308,
+        [_Location_file]: null
+      });
+    },
+    get C287() {
+      return C[287] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 309,
+        [_Location_file]: null
+      });
+    },
+    get C282() {
+      return C[282] = dart.constList([C[283] || CT.C283, C[284] || CT.C284, C[285] || CT.C285, C[286] || CT.C286, C[287] || CT.C287], T._LocationL());
+    },
+    get C281() {
+      return C[281] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[282] || CT.C282,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 303,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C290() {
+      return C[290] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 303,
+        [_Location_file]: null
+      });
+    },
+    get C289() {
+      return C[289] = dart.constList([C[290] || CT.C290], T._LocationL());
+    },
+    get C288() {
+      return C[288] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[289] || CT.C289,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 302,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C293() {
+      return C[293] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 88,
+        [_Location_line]: 314,
+        [_Location_file]: null
+      });
+    },
+    get C294() {
+      return C[294] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 315,
+        [_Location_file]: null
+      });
+    },
+    get C295() {
+      return C[295] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 317,
+        [_Location_file]: null
+      });
+    },
+    get C296() {
+      return C[296] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 318,
+        [_Location_file]: null
+      });
+    },
+    get C297() {
+      return C[297] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 319,
+        [_Location_file]: null
+      });
+    },
+    get C292() {
+      return C[292] = dart.constList([C[293] || CT.C293, C[294] || CT.C294, C[295] || CT.C295, C[296] || CT.C296, C[297] || CT.C297], T._LocationL());
+    },
+    get C291() {
+      return C[291] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[292] || CT.C292,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 313,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C300() {
+      return C[300] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 313,
+        [_Location_file]: null
+      });
+    },
+    get C299() {
+      return C[299] = dart.constList([C[300] || CT.C300], T._LocationL());
+    },
+    get C298() {
+      return C[298] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[299] || CT.C299,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 312,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C303() {
+      return C[303] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 324,
+        [_Location_file]: null
+      });
+    },
+    get C304() {
+      return C[304] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 325,
+        [_Location_file]: null
+      });
+    },
+    get C305() {
+      return C[305] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 327,
+        [_Location_file]: null
+      });
+    },
+    get C306() {
+      return C[306] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 328,
+        [_Location_file]: null
+      });
+    },
+    get C307() {
+      return C[307] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 329,
+        [_Location_file]: null
+      });
+    },
+    get C302() {
+      return C[302] = dart.constList([C[303] || CT.C303, C[304] || CT.C304, C[305] || CT.C305, C[306] || CT.C306, C[307] || CT.C307], T._LocationL());
+    },
+    get C301() {
+      return C[301] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[302] || CT.C302,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 323,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C310() {
+      return C[310] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 323,
+        [_Location_file]: null
+      });
+    },
+    get C309() {
+      return C[309] = dart.constList([C[310] || CT.C310], T._LocationL());
+    },
+    get C308() {
+      return C[308] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[309] || CT.C309,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 322,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C313() {
+      return C[313] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 91,
+        [_Location_line]: 334,
+        [_Location_file]: null
+      });
+    },
+    get C314() {
+      return C[314] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 335,
+        [_Location_file]: null
+      });
+    },
+    get C315() {
+      return C[315] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 337,
+        [_Location_file]: null
+      });
+    },
+    get C316() {
+      return C[316] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 338,
+        [_Location_file]: null
+      });
+    },
+    get C317() {
+      return C[317] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 339,
+        [_Location_file]: null
+      });
+    },
+    get C312() {
+      return C[312] = dart.constList([C[313] || CT.C313, C[314] || CT.C314, C[315] || CT.C315, C[316] || CT.C316, C[317] || CT.C317], T._LocationL());
+    },
+    get C311() {
+      return C[311] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[312] || CT.C312,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 333,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C320() {
+      return C[320] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 333,
+        [_Location_file]: null
+      });
+    },
+    get C319() {
+      return C[319] = dart.constList([C[320] || CT.C320], T._LocationL());
+    },
+    get C318() {
+      return C[318] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[319] || CT.C319,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 332,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C323() {
+      return C[323] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 92,
+        [_Location_line]: 344,
+        [_Location_file]: null
+      });
+    },
+    get C324() {
+      return C[324] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 33,
+        [_Location_line]: 345,
+        [_Location_file]: null
+      });
+    },
+    get C325() {
+      return C[325] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "overflow",
+        [_Location_column]: 33,
+        [_Location_line]: 348,
+        [_Location_file]: null
+      });
+    },
+    get C326() {
+      return C[326] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 33,
+        [_Location_line]: 349,
+        [_Location_file]: null
+      });
+    },
+    get C327() {
+      return C[327] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "minFontSize",
+        [_Location_column]: 33,
+        [_Location_line]: 350,
+        [_Location_file]: null
+      });
+    },
+    get C322() {
+      return C[322] = dart.constList([C[323] || CT.C323, C[324] || CT.C324, C[325] || CT.C325, C[326] || CT.C326, C[327] || CT.C327], T._LocationL());
+    },
+    get C321() {
+      return C[321] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[322] || CT.C322,
+        [_Location_name]: null,
+        [_Location_column]: 38,
+        [_Location_line]: 343,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C330() {
+      return C[330] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 31,
+        [_Location_line]: 343,
+        [_Location_file]: null
+      });
+    },
+    get C329() {
+      return C[329] = dart.constList([C[330] || CT.C330], T._LocationL());
+    },
+    get C328() {
+      return C[328] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[329] || CT.C329,
+        [_Location_name]: null,
+        [_Location_column]: 29,
+        [_Location_line]: 342,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C333() {
+      return C[333] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 27,
+        [_Location_line]: 300,
+        [_Location_file]: null
+      });
+    },
+    get C334() {
+      return C[334] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 27,
+        [_Location_line]: 301,
+        [_Location_file]: null
+      });
+    },
+    get C332() {
+      return C[332] = dart.constList([C[333] || CT.C333, C[334] || CT.C334], T._LocationL());
+    },
+    get C331() {
+      return C[331] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[332] || CT.C332,
+        [_Location_name]: null,
+        [_Location_column]: 32,
+        [_Location_line]: 299,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C337() {
+      return C[337] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 25,
+        [_Location_line]: 297,
+        [_Location_file]: null
+      });
+    },
+    get C338() {
+      return C[338] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 25,
+        [_Location_line]: 298,
+        [_Location_file]: null
+      });
+    },
+    get C339() {
+      return C[339] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 25,
+        [_Location_line]: 299,
+        [_Location_file]: null
+      });
+    },
+    get C336() {
+      return C[336] = dart.constList([C[337] || CT.C337, C[338] || CT.C338, C[339] || CT.C339], T._LocationL());
+    },
+    get C335() {
+      return C[335] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[336] || CT.C336,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 296,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C342() {
+      return C[342] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "mainAxisAlignment",
+        [_Location_column]: 21,
+        [_Location_line]: 171,
+        [_Location_file]: null
+      });
+    },
+    get C343() {
+      return C[343] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 21,
+        [_Location_line]: 172,
+        [_Location_file]: null
+      });
+    },
+    get C344() {
+      return C[344] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 21,
+        [_Location_line]: 173,
+        [_Location_file]: null
+      });
+    },
+    get C341() {
+      return C[341] = dart.constList([C[342] || CT.C342, C[343] || CT.C343, C[344] || CT.C344], T._LocationL());
+    },
+    get C340() {
+      return C[340] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[341] || CT.C341,
+        [_Location_name]: null,
+        [_Location_column]: 26,
+        [_Location_line]: 170,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C347() {
+      return C[347] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 19,
+        [_Location_line]: 167,
+        [_Location_file]: null
+      });
+    },
+    get C348() {
+      return C[348] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 19,
+        [_Location_line]: 168,
+        [_Location_file]: null
+      });
+    },
+    get C349() {
+      return C[349] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 19,
+        [_Location_line]: 169,
+        [_Location_file]: null
+      });
+    },
+    get C350() {
+      return C[350] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 19,
+        [_Location_line]: 170,
+        [_Location_file]: null
+      });
+    },
+    get C346() {
+      return C[346] = dart.constList([C[347] || CT.C347, C[348] || CT.C348, C[349] || CT.C349, C[350] || CT.C350], T._LocationL());
+    },
+    get C345() {
+      return C[345] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[346] || CT.C346,
+        [_Location_name]: null,
+        [_Location_column]: 24,
+        [_Location_line]: 166,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C353() {
+      return C[353] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "borderRadius",
+        [_Location_column]: 17,
+        [_Location_line]: 165,
+        [_Location_file]: null
+      });
+    },
+    get C354() {
+      return C[354] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 17,
+        [_Location_line]: 166,
+        [_Location_file]: null
+      });
+    },
+    get C352() {
+      return C[352] = dart.constList([C[353] || CT.C353, C[354] || CT.C354], T._LocationL());
+    },
+    get C351() {
+      return C[351] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[352] || CT.C352,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 164,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C357() {
+      return C[357] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 13,
+        [_Location_line]: 21,
+        [_Location_file]: null
+      });
+    },
+    get C356() {
+      return C[356] = dart.constList([C[357] || CT.C357], T._LocationL());
+    },
+    get C355() {
+      return C[355] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[356] || CT.C356,
+        [_Location_name]: null,
+        [_Location_column]: 11,
+        [_Location_line]: 20,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C360() {
+      return C[360] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 9,
+        [_Location_line]: 19,
+        [_Location_file]: null
+      });
+    },
+    get C359() {
+      return C[359] = dart.constList([C[360] || CT.C360], T._LocationL());
+    },
+    get C358() {
+      return C[358] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[359] || CT.C359,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 18,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    },
+    get C363() {
+      return C[363] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 7,
+        [_Location_line]: 18,
+        [_Location_file]: null
+      });
+    },
+    get C362() {
+      return C[362] = dart.constList([C[363] || CT.C363], T._LocationL());
+    },
+    get C361() {
+      return C[361] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[362] || CT.C362,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 17,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/infocidade/info_cidades.dart"
+      });
+    }
+  }, false);
+  var C = Array(364).fill(void 0);
+  var I = ["package:realtime/pages/infocidade/info_cidades.dart"];
+  var context$ = dart.privateName(info_cidades, "InfoCidade.context");
+  var snapshot$ = dart.privateName(info_cidades, "InfoCidade.snapshot");
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var Widget__location = dart.privateName(framework, "Widget._location");
+  var Widget_key = dart.privateName(framework, "Widget.key");
+  var SingleChildRenderObjectWidget_child = dart.privateName(framework, "SingleChildRenderObjectWidget.child");
+  var SizedBox_height = dart.privateName(basic, "SizedBox.height");
+  var SizedBox_width = dart.privateName(basic, "SizedBox.width");
+  var Color_value = dart.privateName(ui, "Color.value");
+  var VerticalDivider_color = dart.privateName(divider, "VerticalDivider.color");
+  var VerticalDivider_endIndent = dart.privateName(divider, "VerticalDivider.endIndent");
+  var VerticalDivider_indent = dart.privateName(divider, "VerticalDivider.indent");
+  var VerticalDivider_thickness = dart.privateName(divider, "VerticalDivider.thickness");
+  var VerticalDivider_width = dart.privateName(divider, "VerticalDivider.width");
+  info_cidades.InfoCidade = class InfoCidade extends framework.StatelessWidget {
+    get context() {
+      return this[context$];
+    }
+    set context(value) {
+      this[context$] = value;
+    }
+    get snapshot() {
+      return this[snapshot$];
+    }
+    set snapshot(value) {
+      this[snapshot$] = value;
+    }
+    build(context) {
+      let currently = new core.DateTime.now();
+      let tablet = responsive_wrapper.ResponsiveWrapper.of(context).isTablet;
+      return new basic.Expanded.new({child: new scroll_view.ListView.new({children: T.JSArrayOfWidgetL().of([new basic.Column.new({children: T.JSArrayOfWidgetL().of([new basic.Row.new({children: T.JSArrayOfWidgetL().of([dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? new container.Container.new({alignment: alignment.Alignment.center, height: 200.0, width: 200.0, child: new image.Image.asset("image/sol.gif", {fit: box_fit.BoxFit.contain, $creationLocationd_0dea112b090073317d4: C[0] || CT.C0}), $creationLocationd_0dea112b090073317d4: C[4] || CT.C4}) : new container.Container.new({alignment: alignment.Alignment.center, height: 200.0, width: 200.0, child: new image.Image.asset("image/lua.gif", {fit: box_fit.BoxFit.contain, $creationLocationd_0dea112b090073317d4: C[10] || CT.C10}), $creationLocationd_0dea112b090073317d4: C[14] || CT.C14}), new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: T.JSArrayOfWidgetL().of([new text.Text.new(dart.str(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["city"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), $creationLocationd_0dea112b090073317d4: C[20] || CT.C20}), new basic.Row.new({children: T.JSArrayOfWidgetL().of([new text.Text.new(dart.str(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["temp"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 30.0}), $creationLocationd_0dea112b090073317d4: C[24] || CT.C24}), new icon.Icon.new(material_community_icons.MaterialCommunityIcons.temperature_celsius, {size: 20.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[28] || CT.C28})]), $creationLocationd_0dea112b090073317d4: C[33] || CT.C33}), new text.Text.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["weekday"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), $creationLocationd_0dea112b090073317d4: C[36] || CT.C36})]), $creationLocationd_0dea112b090073317d4: C[40] || CT.C40})]), $creationLocationd_0dea112b090073317d4: C[44] || CT.C44}), C[47] || CT.C47, new container.Container.new({width: 600.0, child: new basic.Wrap.new({alignment: wrap.WrapAlignment.center, children: (() => {
+                      let t0 = T.JSArrayOfWidgetL().of([new icon.Icon.new(font_awesome.FontAwesome.thermometer_full, {size: 20.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[51] || CT.C51}), new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["max"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 20.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[56] || CT.C56}), new icon.Icon.new(material_community_icons.MaterialCommunityIcons.temperature_celsius, {size: 20.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[63] || CT.C63}), C[68] || CT.C68, new icon.Icon.new(font_awesome.FontAwesome.thermometer_empty, {size: 20.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[79] || CT.C79}), new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["min"])) + "°", {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 20.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[84] || CT.C84}), new icon.Icon.new(material_community_icons.MaterialCommunityIcons.temperature_celsius, {size: 20.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[91] || CT.C91}), C[96] || CT.C96, new icon.Icon.new(material_community_icons.MaterialCommunityIcons.weather_windy, {color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[106] || CT.C106}), new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["wind_speedy"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 20.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[110] || CT.C110}), C[117] || CT.C117]);
+                      if (dart.equals(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["description"]), "Ensolarado")) t0[$add](new icon.Icon.new(material_community_icons.MaterialCommunityIcons.weather_sunny, {color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[127] || CT.C127}));
+                      if (dart.equals(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["description"]), "Nublado")) t0[$add](new icon.Icon.new(material_community_icons.MaterialCommunityIcons.weather_partly_cloudy, {color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[131] || CT.C131}));
+                      if (!dart.equals(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["description"]), "Ensolarado") && !dart.equals(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["description"]), "Nublado")) t0[$add](new icon.Icon.new(material_community_icons.MaterialCommunityIcons.weather_partly_cloudy, {color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, $creationLocationd_0dea112b090073317d4: C[135] || CT.C135}));
+                      t0[$add](new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [0]), '_get', ["description"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 20.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[139] || CT.C139}));
+                      return t0;
+                    })(), $creationLocationd_0dea112b090073317d4: C[146] || CT.C146}), $creationLocationd_0dea112b090073317d4: C[150] || CT.C150}), new basic.SizedBox.new({height: dart.test(tablet) ? 150.0 : 100.0, $creationLocationd_0dea112b090073317d4: C[154] || CT.C154}), new basic.ClipRRect.new({borderRadius: new border_radius.BorderRadius.circular(20.0), child: new container.Container.new({height: 150.0, width: 400.0, color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.grey._get(200) : colors.Colors.black, child: new basic.Row.new({mainAxisAlignment: flex.MainAxisAlignment.center, crossAxisAlignment: flex.CrossAxisAlignment.center, children: T.JSArrayOfWidgetL().of([new container.Container.new({width: 120.0, height: 100.0, child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: T.JSArrayOfWidgetL().of([new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [1]), '_get', ["date"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[157] || CT.C157}), $creationLocationd_0dea112b090073317d4: C[164] || CT.C164}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [1]), '_get', ["weekday"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[167] || CT.C167}), $creationLocationd_0dea112b090073317d4: C[174] || CT.C174}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Máxima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [1]), '_get', ["max"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[177] || CT.C177}), $creationLocationd_0dea112b090073317d4: C[184] || CT.C184}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Minima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [1]), '_get', ["min"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[187] || CT.C187}), $creationLocationd_0dea112b090073317d4: C[194] || CT.C194}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [1]), '_get', ["description"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.visible, maxLines: 3, minFontSize: 13.0, $creationLocationd_0dea112b090073317d4: C[197] || CT.C197}), $creationLocationd_0dea112b090073317d4: C[204] || CT.C204})]), $creationLocationd_0dea112b090073317d4: C[207] || CT.C207}), $creationLocationd_0dea112b090073317d4: C[211] || CT.C211}), new divider.VerticalDivider.new({color: colors.Colors.grey._get(300), $creationLocationd_0dea112b090073317d4: C[216] || CT.C216}), new container.Container.new({width: 120.0, height: 100.0, child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: T.JSArrayOfWidgetL().of([new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [2]), '_get', ["date"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[219] || CT.C219}), $creationLocationd_0dea112b090073317d4: C[226] || CT.C226}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [2]), '_get', ["weekday"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[229] || CT.C229}), $creationLocationd_0dea112b090073317d4: C[236] || CT.C236}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Máxima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [2]), '_get', ["max"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[239] || CT.C239}), $creationLocationd_0dea112b090073317d4: C[246] || CT.C246}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Minima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [2]), '_get', ["min"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[249] || CT.C249}), $creationLocationd_0dea112b090073317d4: C[256] || CT.C256}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [2]), '_get', ["description"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.visible, maxLines: 3, minFontSize: 13.0, $creationLocationd_0dea112b090073317d4: C[259] || CT.C259}), $creationLocationd_0dea112b090073317d4: C[266] || CT.C266})]), $creationLocationd_0dea112b090073317d4: C[269] || CT.C269}), $creationLocationd_0dea112b090073317d4: C[273] || CT.C273}), new divider.VerticalDivider.new({color: colors.Colors.grey._get(300), $creationLocationd_0dea112b090073317d4: C[278] || CT.C278}), new container.Container.new({width: 120.0, height: 100.0, child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: T.JSArrayOfWidgetL().of([new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [3]), '_get', ["date"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[281] || CT.C281}), $creationLocationd_0dea112b090073317d4: C[288] || CT.C288}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [3]), '_get', ["weekday"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[291] || CT.C291}), $creationLocationd_0dea112b090073317d4: C[298] || CT.C298}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Máxima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [3]), '_get', ["max"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[301] || CT.C301}), $creationLocationd_0dea112b090073317d4: C[308] || CT.C308}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new("Minima " + dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [3]), '_get', ["min"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.ellipsis, maxLines: 1, minFontSize: 10.0, $creationLocationd_0dea112b090073317d4: C[311] || CT.C311}), $creationLocationd_0dea112b090073317d4: C[318] || CT.C318}), new basic.Expanded.new({child: new auto_size_text.AutoSizeText.new(dart.str(dart.dsend(dart.dsend(dart.dsend(dart.dsend(this.snapshot.data, '_get', ["results"]), '_get', ["forecast"]), '_get', [3]), '_get', ["description"])), {style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 15.0}), overflow: paragraph.TextOverflow.visible, maxLines: 3, minFontSize: 13.0, $creationLocationd_0dea112b090073317d4: C[321] || CT.C321}), $creationLocationd_0dea112b090073317d4: C[328] || CT.C328})]), $creationLocationd_0dea112b090073317d4: C[331] || CT.C331}), $creationLocationd_0dea112b090073317d4: C[335] || CT.C335})]), $creationLocationd_0dea112b090073317d4: C[340] || CT.C340}), $creationLocationd_0dea112b090073317d4: C[345] || CT.C345}), $creationLocationd_0dea112b090073317d4: C[351] || CT.C351})]), $creationLocationd_0dea112b090073317d4: C[355] || CT.C355})]), $creationLocationd_0dea112b090073317d4: C[358] || CT.C358}), $creationLocationd_0dea112b090073317d4: C[361] || CT.C361});
+    }
+  };
+  (info_cidades.InfoCidade.new = function(context, snapshot, opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[context$] = context;
+    this[snapshot$] = snapshot;
+    info_cidades.InfoCidade.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = info_cidades.InfoCidade.prototype;
+  dart.addTypeTests(info_cidades.InfoCidade);
+  dart.addTypeCaches(info_cidades.InfoCidade);
+  dart.setMethodSignature(info_cidades.InfoCidade, () => ({
+    __proto__: dart.getMethods(info_cidades.InfoCidade.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)])
+  }));
+  dart.setLibraryUri(info_cidades.InfoCidade, I[0]);
+  dart.setFieldSignature(info_cidades.InfoCidade, () => ({
+    __proto__: dart.getFields(info_cidades.InfoCidade.__proto__),
+    context: dart.fieldType(dart.legacy(framework.BuildContext)),
+    snapshot: dart.fieldType(dart.legacy(async.AsyncSnapshot))
+  }));
+  dart.trackLibraries("packages/realtime/pages/infocidade/info_cidades.dart", {
+    "package:realtime/pages/infocidade/info_cidades.dart": info_cidades
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["info_cidades.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"../../../../../../../../packages/realtime/pages/infocidade/info_cidades.dart.lib.js"}');
+  // Exports:
+  return {
+    pages__infocidade__info_cidades: info_cidades
+  };
+}));
+
+//# sourceMappingURL=info_cidades.dart.lib.js.map

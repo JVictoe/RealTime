@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online માં તમારા ક્લિપબોર્ડનો ઉપયોગ કરો જેથી તમે રાઇટ-ક્લિક મેનૂ અને રિબન બારમાંથી કટ, કૉપિ અને પેસ્ટ કરી શકો.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online કૉપિ અને પેસ્ટ"
+   }
+}

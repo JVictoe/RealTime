@@ -1,0 +1,121 @@
+{
+   "checksum": "a50d3074290924bb59ad449fcab5fc46",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13196999885358227",
+            "guid": "12b32268-7853-45be-bc16-59984847ccb6",
+            "id": "5",
+            "meta_info": {
+               "last_visited": "13220597078996621",
+               "last_visited_desktop": "13205366963772068"
+            },
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.com/"
+         }, {
+            "date_added": "13188310118534240",
+            "guid": "143510e7-6022-4e4b-96d1-7fa97e85e5d8",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13205552025714605"
+            },
+            "name": " YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/?gl=BR"
+         }, {
+            "date_added": "13188273148016868",
+            "guid": "3554d84e-1ce8-4ffc-aeec-25d736af243b",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13205601382501743"
+            },
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13238270262162991",
+            "guid": "280802a7-a07d-40ec-9484-e636a8db13a2",
+            "id": "8",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         }, {
+            "date_added": "13226451189458873",
+            "guid": "aee059ca-9e5f-457f-a72b-2f0b6992bf5a",
+            "id": "9",
+            "name": "Formulários · Bootstrap",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/4.4/components/forms/?"
+         }, {
+            "date_added": "13243541240456201",
+            "guid": "a488f320-c73c-4e15-b031-5bedd71febd8",
+            "id": "10",
+            "name": "JVictoe (João Víctor)",
+            "type": "url",
+            "url": "https://github.com/JVictoe"
+         }, {
+            "date_added": "13245816751351836",
+            "guid": "641a8339-838d-4969-86fc-0715c93929e1",
+            "id": "11",
+            "name": "FlashCards",
+            "type": "url",
+            "url": "https://fc.inglesextremo.com.br/deck/2"
+         } ],
+         "date_added": "13260835547348643",
+         "date_modified": "13245816751351836",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13260835547348646",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Outros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13217553587825338",
+            "guid": "3c83d58f-1d49-492f-8d72-852e06e46ccb",
+            "id": "12",
+            "name": "emulador de ps2 urban regin - Pesquisa Google",
+            "type": "url",
+            "url": "https://www.google.com/search?bih=512&biw=360&hl=pt-BR&sxsrf=ACYBGNRpZPndhFZ1uKFTc1cgoapEsjpuqA%3A1573044699551&ei=28HCXdOlIbrF5OUPm7edsA0&q=emulador+de+ps2+urban+regin&oq=emulador+de+ps2+urban+regin&gs_l=mobile-gws-wiz-serp.3..33i22i29i30l2j33i160.17853.21875..22251...0.1..1.676.5287.0j5j7j0j2j3......0....1.........0i71j35i39j0j0i22i30j0i13i30j0i8i13i30.gZ2nFeqbTnQ"
+         }, {
+            "date_added": "13217717043613310",
+            "guid": "c4b4dcdf-f77c-46fd-acdf-7353660ea63e",
+            "id": "13",
+            "name": "God Hand ROM (ISO) Baixar para Sony Playstation 2 / PS2 - CoolROM.com",
+            "type": "url",
+            "url": "https://coolrom.com.au/roms/ps2/41906/God_Hand.php"
+         }, {
+            "date_added": "13220579730625552",
+            "guid": "6b6ab5c6-f3ff-47e0-827e-452e4d473f10",
+            "id": "14",
+            "name": "CSS · Bootstrap",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/3.4/css/"
+         }, {
+            "date_added": "13224955184120502",
+            "guid": "3a0d1997-0afb-4276-88ea-f693e30a11d9",
+            "id": "15",
+            "name": "notepad.exe",
+            "type": "url",
+            "url": "http://marcelogomesrp.blogspot.com/"
+         } ],
+         "date_added": "13260835547348647",
+         "date_modified": "13224955184120502",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Favoritos nos dispositivos móveis",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CscBCqYBCIiBAhKfARKMAQgCEk4KBgoCYm0QARAzGhIJgPHvixK+BQAhgPHvixK+BQAiFAn9gj+bEr4FABAJGd1OJRNO/8jeMhgKFggCEdfiV5sSvgUAGAAhAAAAAAAAAAASOAoGCgJiZBAAEDMaEgmA8e+LEr4FACGA8e+LEr4FADIYChYIAhHX4lebEr4FABgAIQAAAAAAAAAAIABI9967tYUvcNfNu7WFLxIAIAEqGGM4OUg1REZSRnRCbEZaYW91RXVEbVE9PRKtAggPEqgCChxoYlM4aHJKaDRPd0kwUmJTU1NRcm9IUWJzTFk9EqYBWjpBRHF0QVp3S0NVSkFUV1hiRnhYVS9RUjdsaDdESVBaQkEyb3JDZDhNa3ozUVFjVTJSU2FDbzNrQkgzclhnYjZFbUh5YUs5cy9hcFM2UHY2a2V6bmRKY3RSejVzTU01N2EzdUdNOEN4djZmODMwN3dVaWJvNmFLN2lPSUhWZjFrVC9ONSthOXd2bmJYNFRrWFEzWmtyZlkrLzVkdVh0WDJpQXc9PRgAIAAoADD1u7arjJvsAjj4t6zg/y1A+Les4P8tShxNdFV6My9rYVZyOFRuNkxsdnQzWFI2ZHVoUDg9Wh8iHe9kYWY4cndheTZ2Uzk1SVJyczBLczBkZUxwVUU9Zfro/xgSrQIIDhKoAgocRmVhZTU1R3ZQUS9FVHE2Wjg1aFRzZFEzRnRFPRKmAVo6QURxdEFad0tDVUpBVFdYYkZ4WFUvUVI3bGg3RElQWkJBMm9yQ2Q4TWt6M1FRY1UyUlVRUG9hZzAyQWNmNVJ5YjBuc3NhWndDSGU3RUN5N3NWVG9OTzNpVEpTcTVJVldEOHowSENKcVl6V3FVT2F6WitVM25TaW9ndVNsTis5MFNOM0tDSTlSMzNMSTY4N3k3SVpXYVFBUThMeWdhTkdFdlRnPT0YACAAKAAw9bu2q4yb7AI4wfn7ue8tQMH5+7nvLUocOUtndEdxNWhNeUtOMWJFanV4QTFHS3dmOHFZPVofIh3eWFcyd2JnRkVteVZFNUhjL3E2eWdWYkVIYUhVPWUrRFS6Eq8CCAoSqgIKHFNPWFhNSGRtRk1qTnhqNkFQa0RpRXNIN2lTUT0SpgFaOkFEcXRBWndLQ1VKQVRXWGJGeFhVL1FSN2xoN0RhYUJRUXJMa0hJcXpTdW5rRyt3OGFQOEpBZUxqQnB2alNwVzE0N1M5Y1hnYmxPN0U5aFEwQjc2dHg0WHYvTXBnTVhaQ09VNWdseWMxUytHcTVVeE05Qkh2QkU4YjQ0KzhJWDA0THFZaDBBNW41UGttd0N0cnVqN1dPTFZlQXF0OS9sQTdaZz09GAAgAigCMPyF/tmpwu8COIml7/7ELkDN0Lu1hS9KHEFlVEgraHNtaW1iek84OTFJR3FMQnNBWkF6dz1aISIf///7OWxOSmFGOGluamgzU1NIQ2F0b2hSRERMdUVzPWUo0OGpEq0CCAcSqAIKHFhOaGphYngzVFdoeWlXem9HN3FMM3E5aTZUOD0SpgFaOkFEcXRBWndLQ1VKQVRXWGJGeFhVL1FSN2xoN0QvRzM4dVVVekl6clFEMkJ6TDUyTTRBeTdtdkthN2QzVXhML0ViUG9lZmFMZ3djSUJ4eWxveTlhVG9JVFpQRFNEbG9hSzc5ZkxTc1RvWnYwd0FHejJ0N3NibTZpenJCWEVNVTF6cmZqcElzMmErMzZkazVtMG4rRFhhWWEyVWdMaDBhRHovdz09GAAgAigCMPyF/tmpwu8COJHKn86XLUDM0Lu1hS9KHFZnNEZmUzN4cUUxSlhqWFBLaGlJcjYyTlZpcz1aHyIduVU2ME1kM3NXT1lWc2xhWEVFa2hBSkhRZDhIND1l4lSk4xKtAggNEqgCChxIZEtqZW0wa2JiTC85VVZraWd2V2VrcjNHT0E9EqYBWjpBRHF0QVp3S0NVSkFUV1hiRnhYVS9RUjdsaDdESVBaQkEyb3JDZDhNa3ozUVFjVTJSYU1YajJrMUJjT2JEQ2Zwak84blcxRjRrczNFS1lTWVZtNFl1NE1aOEVvdzNEa3d0NEdIcjJOcm5uTHFVQVJwMWpaQ21xZCtMbEhqR2g0bjRKeGY0NjRxbmNvSlIwRkpFTlQrZm9XSFRmMVpBbDh4NWc9PRgAIAAoADD1u7arjJvsAjids/fk5C1AnbP35OQtShxZNjlLN3ZOdHN3bHhEZTl5dzR5WmU3RUhEWXc9Wh8iHb1kNHRNdmxud1BwUGRXaUR1ZEs5Qnd3T0JSMmc9ZQAAAAASrAIIDBKnAgocZklKTkU3OC9aTk1MdkpVdUlaOWRCMnNLQXM4PRKmAVo6QURxdEFad0tDVUpBVFdYYkZ4WFUvUVI3bGg3RDY1dHdjRUFyenFkaXlmb3NoaVhxZllHVjVuT1plNUw0dGNKZVRvS1VrWENFZWUrSDhpeDlXZzltRVNQclduZE1hR0xydVdtNEdJNkQzSndhMnBjYjJzdVZROHdIRk11dElmeHVOQU92NVQvSUtlMVhDUFVhQTJiM2t4VTJoajNrYTh1VG9BPT0YACAAKAAw9bu2q4yb7AI4+uz+luQtQPrs/pbkLUoccXNsdmRXTzVJWW1NL0pMbFk5bTFTeVVRMG9jPVoeIhx6TzU3dlhyaU9JbForczhCMDJnQWpxUzRlOFE9ZbVhQ40SwwEIAxK+AQoceTVXRTI3dUk2dlgvRGVJU0hKem5qTXF1V1dzPRJmWjpBRHF0QVp3SnFzTFZpbm9zM3hhZE9uNERWWjd0Wjdzd1o3NjhxY0xsYVUxWTBLSlY0V3JsVTk0VmVnT0diZWVmYlBIL0tqQklMbzhTZDBlT0RwUTJGaTY4aU9pMVVjQitLUT09GAAgACgAMIaJ09ipwu8COABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVoAZQAAAAASrwIICxKqAgocZWI0T3ZqUlk5eklVL1BoN1ZIVTZWUktTYjR3PRKmAVo6QURxdEFad0tDVUpBVFdYYkZ4WFUvUVI3bGg3RGFhQlFRckxrSElxelN1bmtHK3c4YURyNU1iRXlTczhTV2RWemRjb2NRRGdtZWxoVVhoSkRMU0F6UlRiZ0U0MzRUZmoralpSMnIzQ2pvRHlpUE5MYVZoWFBiL1JiWlZCTWw2VkxXVXZTUzQzenVBcThLZnJwOHBYOHVEbzlDcFp2MzVjN1pBPT0YACAAKAAw9bu2q4yb7AI4+bn1u80uQPm59bvNLkocZW5POFlyVEx1cTFYbytwMU5jN1J1MjQydzZRPVohIh////1qUmFIeUpsSVR6SXJ3S0Z6NFNVc2EvZFJIUE09ZQAAAAASwwEIAhK+AQocekRWR3JydFpMZE0rNEJUeWJnK0hDT3JXZ3lvPRJmWjpBRHF0QVp4V1JPbjVySERMQURxNmxmU091STZ4K3Zkejl5dnoveXBYNWhMWkZnMFJwbWM0M0tzMG9BbTM0SDZVNFNiamhuV3hoSkFiLzRiOTlnSVI2c0k1MW13RHpMR3g3Zz09GAAgACgAMIaJ09ipwu8COABAAEocNXVzeS9jcGZwaTFFdG9CSERnWElzMHFiNHJBPVoAZQAAAAASrQIICRKoAgoccWlKZGNlNUFHQjlhbVlSVVMvSW1VRjcxSi9vPRKmAVo6QURxdEFad0tDVUpBVFdYYkZ4WFUvUVI3bGg3RElQWkJBMm9yQ2Q4TWt6M1FRY1UyUlhBSDhiKzlkR2ZBK0hhTnpETU8xUk02eFNUbG9FeWdDQ1l3K29nbHJTc2RBM3A5T0hyMnZ3T2lQMzIvUEhwNkltL3lCWEM4dUNqMHZ4LzdZRmdkVERvT0N3K3dnbXJmWXY4cEFyMUZSdmRwOVVzMlpBPT0YACACKAIw/IX+2anC7wI4063ZqYUuQM3Qu7WFL0ocZ2RJQ0dBTE1NU0FCS2RMeVlnZkE4dytCbENFPVofIh3lWFNKeGlyd2Ezc3k0YmZ5ZWUwdmU4Smh4dHFjPWUrRFS6EqsBCAESpgEKHC9FS0xhVVV5TWRiS0VrMUJhMlVpbnlEbmY3ST0STlo6QURxdEFaekV3MUF6RTY5NHFTM1RCYjRMTldLV0YzSldqdk03cDZka0Q1ZC9WWHcvVFo3am9nclYySzBkdE5PQXgvcGNTc1ZuUUdLbRgAIAAoADCGidPYqcLvAjgAQABKHFUrR0dJdFpFRHBac0lTbE9VYUlUdUlMZE1uST1aAGUAAAAAEq0CCAUSqAIKHHdyYStUVHIzWFg5SDd0TkxqcW1iVFJGZXVldz0SpgFaOkFEcXRBWndLQ1VKQVRXWGJGeFhVL1FSN2xoN0QvRzM4dVVVekl6clFEMkJ6TDUyTTROYmowd2FwRGdZVDBmSGFUZXoyQXd5S2tUd1BpMHJiZGxTRUFEUm9EdUtKUElMV1lIanVCbmp6QWJMWnZJSkd2bkNmSTZ1R2dYU2xiMWUrVUZXUDJPRUdIV29ua0hidGRPM1JYOUZDVElYcGllWVZ4Zz09GAAgAigCMPyF/tmpwu8COJHKn86XLUDM0Lu1hS9KHEFFb2t0Ly80YXdUMlB5TG9JbFZoZ09wMkJMQT1aHyIdlTRkVWhVU3lNNUVIckZ3M3c4cFBCc0R1S2paST1lEDD/5BKtAggIEqgCChxZQkNTOWhTLzFqelRJRm80OEtIUnJuYXJJcUk9EqYBWjpBRHF0QVp3S0NVSkFUV1hiRnhYVS9RUjdsaDdESVBaQkEyb3JDZDhNa3ozUVFjVTJSZkhSZlpRNHZ6anQ2dHJic1d2K2NKRGsvajFUYjZDZGdubnYwVDVsczZlaWw1dkRMUlk2K0k5MXpJanlMRGhwVDl6K3lFb2x4a2RrZWZOQ2NITkhpeXZ5UTZtanlxV2NLMTUyakwxS1JzK1E1WUo5cFE9PRgAIAIoAjD8hf7ZqcLvAjiUp7ytsS5AzdC7tYUvShxxbFM2VlpQc2hhYi94ZTVxUitiK2NRT1NTeTg9Wh8iHc9JR0ZnTWhONUg1UEk5MUdKcTJSam9Ld3lxeXc9ZcSRdsUSrQIIBhKoAgocTzRaMVB6Z0VING5oVlVQRS9RSUZZVTZNQ3ZvPRKmAVo6QURxdEFad0tDVUpBVFdYYkZ4WFUvUVI3bGg3RC9HMzh1VVV6SXpyUUQyQnpMNTJNNEtyWXNlbGxNL3VmOHAwUzZNeHdML2xONlJmUlkvSHVTejArN3dRVnl2U0hiZ1hIeTVJaE1aOWIyVzFKR1h4VFpOMXR3cURHc1pHRTQvOHRjOGVONzZmTStMN0lVNGFiNjlkNm9CMndvanA5cjV2YzlnPT0YACACKAIw/IX+2anC7wI4kcqfzpctQMzQu7WFL0ocamFOQ0VPMldIallaNDZMWkE0ZExoK1BKZlN3PVofIh2nKy9nbEkrYVRXWDYxTUZmd0QxWGZsQ0dLd1dBPWU4/XbbGAEgwuG7tYUv",
+   "version": 1
+}

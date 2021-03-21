@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "استخدم الحافظة في Office Online للقص والنسخ واللصق من قائمة النقر بزر الماوس الأيمن وشريط الشرائط."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "النسخ واللصق في Office Offline"
+   }
+}

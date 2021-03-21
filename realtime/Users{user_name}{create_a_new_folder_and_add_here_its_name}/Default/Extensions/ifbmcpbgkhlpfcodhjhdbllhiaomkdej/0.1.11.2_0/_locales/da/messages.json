@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Brug udklipsholderen i Office Online til at klippe, kopiere og indsætte fra genvejsmenuen og båndet.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopiér og indsæt i Office Online"
+   }
+}

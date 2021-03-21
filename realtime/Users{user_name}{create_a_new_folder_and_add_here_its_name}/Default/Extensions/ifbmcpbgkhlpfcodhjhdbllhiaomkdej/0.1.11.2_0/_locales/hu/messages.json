@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Az Office Online-ban a helyi menü és a menüszalag parancsaival kivágási, másolási és beillesztési műveleteket végezhet a vágólapon keresztül.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kivágás és beillesztés az Office Online-ban"
+   }
+}

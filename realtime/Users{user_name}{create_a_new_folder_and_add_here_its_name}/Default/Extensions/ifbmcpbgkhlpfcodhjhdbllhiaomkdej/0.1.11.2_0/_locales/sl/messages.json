@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Uporabite odložišče v zbirki Office Online, da boste lahko rezali, kopirali in lepili elemente prek menija, ki ga prikažete z desno tipko miške, in vrstice traka."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopiranje in lepljenje v zbirki Office Online"
+   }
+}

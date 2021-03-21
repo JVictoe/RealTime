@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online-এ আপনার ক্লিপবোর্ড ব্যবহার করুন যাতে আপনি ডান-ক্লিক মেনু এবং রিবন বারটি থেকে ছেদন, অনুলিপি এবং প্রতিলেপন করতে পারেন।"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online অনুলিপি এবং প্রতিলেপন"
+   }
+}

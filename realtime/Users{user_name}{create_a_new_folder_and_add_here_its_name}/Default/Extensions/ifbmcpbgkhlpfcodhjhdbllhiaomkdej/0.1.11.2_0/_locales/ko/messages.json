@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online에서 클립보드를 사용하면 마우스 오른쪽 단추를 클릭하여 나타나는 메뉴와 리본 표시줄을 통해 잘라내기, 복사, 붙여넣기를 수행할 수 있습니다."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online 복사 및 붙여넣기"
+   }
+}

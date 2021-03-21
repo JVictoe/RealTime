@@ -1,0 +1,638 @@
+define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/http/http.dart', 'packages/responsive_framework/utils/responsive_utils.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/widgets/preferred_size.dart', 'packages/flutter/src/material/colors.dart', 'packages/flutter/src/painting/edge_insets.dart', 'packages/flutter/src/material/text_field.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/flutter/src/widgets/icon_theme_data.dart', 'packages/flutter/src/widgets/async.dart', 'packages/flutter/src/material/progress_indicator.dart', 'packages/flutter/src/animation/listener_helpers.dart', 'packages/realtime/pages/infocidade/info_cidades.dart'], (function load__packages__realtime__pages__home__home_page_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__http__http$46dart, packages__responsive_framework__utils__responsive_utils$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__widgets__preferred_size$46dart, packages__flutter__src__material__colors$46dart, packages__flutter__src__painting__edge_insets$46dart, packages__flutter__src__material__text_field$46dart, packages__flutter__src__painting__strut_style$46dart, packages__flutter__src__widgets__icon_theme_data$46dart, packages__flutter__src__widgets__async$46dart, packages__flutter__src__material__progress_indicator$46dart, packages__flutter__src__animation__listener_helpers$46dart, packages__realtime__pages__infocidade__info_cidades$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const convert = dart_sdk.convert;
+  const async = dart_sdk.async;
+  const ui = dart_sdk.ui;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const http = packages__http__http$46dart.http;
+  const responsive_wrapper = packages__responsive_framework__utils__responsive_utils$46dart.responsive_wrapper;
+  const scaffold = packages__flutter__src__material__icon_button$46dart.src__material__scaffold;
+  const theme = packages__flutter__src__material__icon_button$46dart.src__material__theme;
+  const app_bar = packages__flutter__src__material__icon_button$46dart.src__material__app_bar;
+  const input_decorator = packages__flutter__src__material__icon_button$46dart.src__material__input_decorator;
+  const drawer = packages__flutter__src__material__icon_button$46dart.src__material__drawer;
+  const preferred_size = packages__flutter__src__widgets__preferred_size$46dart.src__widgets__preferred_size;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const edge_insets = packages__flutter__src__painting__edge_insets$46dart.src__painting__edge_insets;
+  const text_field = packages__flutter__src__material__text_field$46dart.src__material__text_field;
+  const text_style = packages__flutter__src__painting__strut_style$46dart.src__painting__text_style;
+  const icon_theme_data = packages__flutter__src__widgets__icon_theme_data$46dart.src__widgets__icon_theme_data;
+  const async$ = packages__flutter__src__widgets__async$46dart.src__widgets__async;
+  const progress_indicator = packages__flutter__src__material__progress_indicator$46dart.src__material__progress_indicator;
+  const animations = packages__flutter__src__animation__listener_helpers$46dart.src__animation__animations;
+  const info_cidades = packages__realtime__pages__infocidade__info_cidades$46dart.pages__infocidade__info_cidades;
+  var home_page = Object.create(dart.library);
+  var $isEmpty = dartx.isEmpty;
+  dart._checkModuleNullSafetyMode(false);
+  var T = {
+    MapL: () => (T.MapL = dart.constFn(dart.legacy(core.Map)))(),
+    FutureOrOfMapL: () => (T.FutureOrOfMapL = dart.constFn(async.FutureOr$(T.MapL())))(),
+    FutureOrLOfMapL: () => (T.FutureOrLOfMapL = dart.constFn(dart.legacy(T.FutureOrOfMapL())))(),
+    VoidToNull: () => (T.VoidToNull = dart.constFn(dart.fnType(core.Null, [])))(),
+    StringL: () => (T.StringL = dart.constFn(dart.legacy(core.String)))(),
+    StringLToNull: () => (T.StringLToNull = dart.constFn(dart.fnType(core.Null, [T.StringL()])))(),
+    _LocationL: () => (T._LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))(),
+    FutureBuilderOfMapL: () => (T.FutureBuilderOfMapL = dart.constFn(async$.FutureBuilder$(T.MapL())))(),
+    ColorL: () => (T.ColorL = dart.constFn(dart.legacy(ui.Color)))(),
+    AlwaysStoppedAnimationOfColorL: () => (T.AlwaysStoppedAnimationOfColorL = dart.constFn(animations.AlwaysStoppedAnimation$(T.ColorL())))(),
+    WidgetL: () => (T.WidgetL = dart.constFn(dart.legacy(framework.Widget)))(),
+    BuildContextL: () => (T.BuildContextL = dart.constFn(dart.legacy(framework.BuildContext)))(),
+    AsyncSnapshotOfMapL: () => (T.AsyncSnapshotOfMapL = dart.constFn(async$.AsyncSnapshot$(T.MapL())))(),
+    AsyncSnapshotLOfMapL: () => (T.AsyncSnapshotLOfMapL = dart.constFn(dart.legacy(T.AsyncSnapshotOfMapL())))(),
+    BuildContextLAndAsyncSnapshotLOfMapLToWidgetL: () => (T.BuildContextLAndAsyncSnapshotLOfMapLToWidgetL = dart.constFn(dart.fnType(T.WidgetL(), [T.BuildContextL(), T.AsyncSnapshotLOfMapL()])))(),
+    JSArrayOfWidgetL: () => (T.JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(T.WidgetL())))()
+  };
+  var T$Eval = Object.assign({
+    _: () => T$Eval
+  }, T);
+  var S = {
+    _: () => S
+  };
+  var S$Eval = Object.assign({
+    _: () => S$Eval
+  }, S);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: edge_insets.EdgeInsets.prototype,
+        [EdgeInsets_bottom]: 10,
+        [EdgeInsets_right]: 10,
+        [EdgeInsets_top]: 10,
+        [EdgeInsets_left]: 10
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 19,
+        [_Location_line]: 54,
+        [_Location_file]: null
+      });
+    },
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 19,
+        [_Location_line]: 60,
+        [_Location_file]: null
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onSubmitted",
+        [_Location_column]: 19,
+        [_Location_line]: 64,
+        [_Location_file]: null
+      });
+    },
+    get C2() {
+      return C[2] = dart.constList([C[3] || CT.C3, C[4] || CT.C4, C[5] || CT.C5], T._LocationL());
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[2] || CT.C2,
+        [_Location_name]: null,
+        [_Location_column]: 24,
+        [_Location_line]: 53,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 17,
+        [_Location_line]: 52,
+        [_Location_file]: null
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 17,
+        [_Location_line]: 53,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C[7] = dart.constList([C[8] || CT.C8, C[9] || CT.C9], T._LocationL());
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[7] || CT.C7,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 51,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "elevation",
+        [_Location_column]: 15,
+        [_Location_line]: 49,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "backgroundColor",
+        [_Location_column]: 15,
+        [_Location_line]: 50,
+        [_Location_file]: null
+      });
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "title",
+        [_Location_column]: 15,
+        [_Location_line]: 51,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "centerTitle",
+        [_Location_column]: 15,
+        [_Location_line]: 71,
+        [_Location_file]: null
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "iconTheme",
+        [_Location_column]: 15,
+        [_Location_line]: 72,
+        [_Location_file]: null
+      });
+    },
+    get C11() {
+      return C[11] = dart.constList([C[12] || CT.C12, C[13] || CT.C13, C[14] || CT.C14, C[15] || CT.C15, C[16] || CT.C16], T._LocationL());
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[11] || CT.C11,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 48,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "preferredSize",
+        [_Location_column]: 13,
+        [_Location_line]: 47,
+        [_Location_file]: null
+      });
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 48,
+        [_Location_file]: null
+      });
+    },
+    get C18() {
+      return C[18] = dart.constList([C[19] || CT.C19, C[20] || CT.C20], T._LocationL());
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[18] || CT.C18,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 46,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C22() {
+      return C[22] = dart.constList([], T._LocationL());
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[22] || CT.C22,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 77,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C25() {
+      return C[25] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 13,
+        [_Location_line]: 76,
+        [_Location_file]: null
+      });
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 77,
+        [_Location_file]: null
+      });
+    },
+    get C24() {
+      return C[24] = dart.constList([C[25] || CT.C25, C[26] || CT.C26], T._LocationL());
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[24] || CT.C24,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 75,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C29() {
+      return C[29] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "valueColor",
+        [_Location_column]: 23,
+        [_Location_line]: 89,
+        [_Location_file]: null
+      });
+    },
+    get C28() {
+      return C[28] = dart.constList([C[29] || CT.C29], T._LocationL());
+    },
+    get C27() {
+      return C[27] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[28] || CT.C28,
+        [_Location_name]: null,
+        [_Location_column]: 28,
+        [_Location_line]: 88,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 21,
+        [_Location_line]: 88,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C[31] = dart.constList([C[32] || CT.C32], T._LocationL());
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[31] || CT.C31,
+        [_Location_name]: null,
+        [_Location_column]: 26,
+        [_Location_line]: 87,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "future",
+        [_Location_column]: 15,
+        [_Location_line]: 82,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "builder",
+        [_Location_column]: 15,
+        [_Location_line]: 83,
+        [_Location_file]: null
+      });
+    },
+    get C34() {
+      return C[34] = dart.constList([C[35] || CT.C35, C[36] || CT.C36], T._LocationL());
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[34] || CT.C34,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 81,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C39() {
+      return C[39] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 13,
+        [_Location_line]: 80,
+        [_Location_file]: null
+      });
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 81,
+        [_Location_file]: null
+      });
+    },
+    get C38() {
+      return C[38] = dart.constList([C[39] || CT.C39, C[40] || CT.C40], T._LocationL());
+    },
+    get C37() {
+      return C[37] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[38] || CT.C38,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 79,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C43() {
+      return C[43] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "extendBodyBehindAppBar",
+        [_Location_column]: 11,
+        [_Location_line]: 44,
+        [_Location_file]: null
+      });
+    },
+    get C44() {
+      return C[44] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "backgroundColor",
+        [_Location_column]: 11,
+        [_Location_line]: 45,
+        [_Location_file]: null
+      });
+    },
+    get C45() {
+      return C[45] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "appBar",
+        [_Location_column]: 11,
+        [_Location_line]: 46,
+        [_Location_file]: null
+      });
+    },
+    get C46() {
+      return C[46] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "drawer",
+        [_Location_column]: 11,
+        [_Location_line]: 75,
+        [_Location_file]: null
+      });
+    },
+    get C47() {
+      return C[47] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 11,
+        [_Location_line]: 79,
+        [_Location_file]: null
+      });
+    },
+    get C42() {
+      return C[42] = dart.constList([C[43] || CT.C43, C[44] || CT.C44, C[45] || CT.C45, C[46] || CT.C46, C[47] || CT.C47], T._LocationL());
+    },
+    get C41() {
+      return C[41] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[42] || CT.C42,
+        [_Location_name]: null,
+        [_Location_column]: 9,
+        [_Location_line]: 43,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C50() {
+      return C[50] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 7,
+        [_Location_line]: 42,
+        [_Location_file]: null
+      });
+    },
+    get C49() {
+      return C[49] = dart.constList([C[50] || CT.C50], T._LocationL());
+    },
+    get C48() {
+      return C[48] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[49] || CT.C49,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 41,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C53() {
+      return C[53] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "context",
+        [_Location_column]: 22,
+        [_Location_line]: 105,
+        [_Location_file]: null
+      });
+    },
+    get C54() {
+      return C[54] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "snapshot",
+        [_Location_column]: 31,
+        [_Location_line]: 105,
+        [_Location_file]: null
+      });
+    },
+    get C52() {
+      return C[52] = dart.constList([C[53] || CT.C53, C[54] || CT.C54], T._LocationL());
+    },
+    get C51() {
+      return C[51] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[52] || CT.C52,
+        [_Location_name]: null,
+        [_Location_column]: 11,
+        [_Location_line]: 105,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    },
+    get C57() {
+      return C[57] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 9,
+        [_Location_line]: 104,
+        [_Location_file]: null
+      });
+    },
+    get C56() {
+      return C[56] = dart.constList([C[57] || CT.C57], T._LocationL());
+    },
+    get C55() {
+      return C[55] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[56] || CT.C56,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 103,
+        [_Location_file]: "file:///C:/Users/joaoj/AndroidStudioProjects/RealTime/realtime/lib/pages/home/home_page.dart"
+      });
+    }
+  }, false);
+  var C = Array(58).fill(void 0);
+  var I = ["package:realtime/pages/home/home_page.dart"];
+  home_page.HomePage = class HomePage extends framework.StatefulWidget {
+    createState() {
+      return new home_page._HomePageState.new();
+    }
+  };
+  (home_page.HomePage.new = function(opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    home_page.HomePage.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = home_page.HomePage.prototype;
+  dart.addTypeTests(home_page.HomePage);
+  dart.addTypeCaches(home_page.HomePage);
+  dart.setMethodSignature(home_page.HomePage, () => ({
+    __proto__: dart.getMethods(home_page.HomePage.__proto__),
+    createState: dart.fnType(dart.legacy(home_page._HomePageState), [])
+  }));
+  dart.setLibraryUri(home_page.HomePage, I[0]);
+  var EdgeInsets_bottom = dart.privateName(edge_insets, "EdgeInsets.bottom");
+  var EdgeInsets_right = dart.privateName(edge_insets, "EdgeInsets.right");
+  var EdgeInsets_top = dart.privateName(edge_insets, "EdgeInsets.top");
+  var EdgeInsets_left = dart.privateName(edge_insets, "EdgeInsets.left");
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  home_page._HomePageState = class _HomePageState extends framework.State$(dart.legacy(home_page.HomePage)) {
+    searchP() {
+      return async.async(T.MapL(), (function* searchP() {
+        let response = null;
+        if (this.search == null || this.search[$isEmpty]) {
+          response = (yield http.get("https://api.hgbrasil.com/weather?key=" + "31997bc5" + "&city_name=Sao Paulo"));
+        } else if (this.search != null) {
+          response = (yield http.get("https://api.hgbrasil.com/weather?key=" + "31997bc5" + "&city_name=" + dart.str(this.search)));
+        }
+        return T.FutureOrLOfMapL().as(convert.json.decode(response.body));
+      }).bind(this));
+    }
+    build(context) {
+      let currently = new core.DateTime.now();
+      let tablet = responsive_wrapper.ResponsiveWrapper.of(context).isTablet;
+      return new basic.Stack.new({children: T.JSArrayOfWidgetL().of([new scaffold.Scaffold.new({extendBodyBehindAppBar: true, backgroundColor: theme.Theme.of(context).primaryColor, appBar: new preferred_size.PreferredSize.new({preferredSize: new ui.Size.new(1 / 0, 80.0), child: new app_bar.AppBar.new({elevation: 0.0, backgroundColor: colors.Colors.transparent, title: new basic.Padding.new({padding: C[0] || CT.C0, child: new text_field.TextField.new({decoration: new input_decorator.InputDecoration.new({hintText: "Pesquise uma cidade", hintStyle: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white})}), style: new text_style.TextStyle.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white, fontSize: 18.0}), onSubmitted: dart.fn(text => {
+                      this.setState(dart.fn(() => {
+                        this.search = text;
+                      }, T.VoidToNull()));
+                    }, T.StringLToNull()), $creationLocationd_0dea112b090073317d4: C[1] || CT.C1}), $creationLocationd_0dea112b090073317d4: C[6] || CT.C6}), centerTitle: true, iconTheme: new icon_theme_data.IconThemeData.new({color: dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white}), $creationLocationd_0dea112b090073317d4: C[10] || CT.C10}), $creationLocationd_0dea112b090073317d4: C[17] || CT.C17}), drawer: new basic.Padding.new({padding: new edge_insets.EdgeInsets.only({left: 10.0, top: 100.0, bottom: 20.0}), child: new drawer.Drawer.new({$creationLocationd_0dea112b090073317d4: C[21] || CT.C21}), $creationLocationd_0dea112b090073317d4: C[23] || CT.C23}), body: new basic.Padding.new({padding: new edge_insets.EdgeInsets.only({top: dart.test(tablet) ? 60.0 : 50.0}), child: new (T.FutureBuilderOfMapL()).new({future: this.searchP(), builder: dart.fn((context, snapshot) => {
+                  if (dart.test(snapshot.hasData)) {
+                    return this.exibeInfoCidade(context, snapshot);
+                  } else {
+                    return new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({valueColor: new (T.AlwaysStoppedAnimationOfColorL()).new(dart.notNull(currently.hour) >= 6 && dart.notNull(currently.hour) <= 17 ? colors.Colors.black : colors.Colors.white), $creationLocationd_0dea112b090073317d4: C[27] || CT.C27}), $creationLocationd_0dea112b090073317d4: C[30] || CT.C30});
+                  }
+                }, T.BuildContextLAndAsyncSnapshotLOfMapLToWidgetL()), $creationLocationd_0dea112b090073317d4: C[33] || CT.C33}), $creationLocationd_0dea112b090073317d4: C[37] || CT.C37}), $creationLocationd_0dea112b090073317d4: C[41] || CT.C41})]), $creationLocationd_0dea112b090073317d4: C[48] || CT.C48});
+    }
+    exibeInfoCidade(context, snapshot) {
+      return new basic.Column.new({children: T.JSArrayOfWidgetL().of([new info_cidades.InfoCidade.new(context, snapshot, {$creationLocationd_0dea112b090073317d4: C[51] || CT.C51})]), $creationLocationd_0dea112b090073317d4: C[55] || CT.C55});
+    }
+  };
+  (home_page._HomePageState.new = function() {
+    this.search = null;
+    home_page._HomePageState.__proto__.new.call(this);
+    ;
+  }).prototype = home_page._HomePageState.prototype;
+  dart.addTypeTests(home_page._HomePageState);
+  dart.addTypeCaches(home_page._HomePageState);
+  dart.setMethodSignature(home_page._HomePageState, () => ({
+    __proto__: dart.getMethods(home_page._HomePageState.__proto__),
+    searchP: dart.fnType(dart.legacy(async.Future$(dart.legacy(core.Map))), []),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)]),
+    exibeInfoCidade: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext), dart.legacy(async$.AsyncSnapshot)])
+  }));
+  dart.setLibraryUri(home_page._HomePageState, I[0]);
+  dart.setFieldSignature(home_page._HomePageState, () => ({
+    __proto__: dart.getFields(home_page._HomePageState.__proto__),
+    search: dart.fieldType(dart.legacy(core.String))
+  }));
+  dart.defineLazy(home_page, {
+    /*home_page.API_KEY*/get API_KEY() {
+      return "31997bc5";
+    }
+  }, true);
+  dart.trackLibraries("packages/realtime/pages/home/home_page.dart", {
+    "package:realtime/pages/home/home_page.dart": home_page
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["home_page.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAWkC;IAAgB;;;;;;EAClD;;;;;;;;;;;;;;;;;;;AAMqB;AACH;AAEd,YAAG,AAAO,uBAAW,AAAO;AAGzB,UAFD,YAAW,MAAM,SACZ,AACL,uDADmD;cAE9C,KAAG,AAAO;AAGd,UAFD,YAAW,MAAM,SACb,AACJ,uDADkD,yBAAY;;AAIhE,sCAAO,AAAK,oBAAO,AAAS,QAAD;MAC7B;;UAG0B;AAEf,sBAAqB;AACxB,mBAA2B,AAAY,wCAAT,OAAO;AAE3C,YAAO,gCACK,yBACR,mDAC0B,uBACD,AAAY,eAAT,OAAO,wBACzB,qDACS,uBAAsB,cAC9B,mCACM,sBACa,kCACjB,sDAEE,0CACO,mDACA,kCACC,qCACe,AAAM,aAArB,AAAU,SAAD,UAAS,KAAqB,aAAf,AAAU,SAAD,UAAS,KAAY,sBAAe,gCAG3E,qCACiB,AAAM,aAArB,AAAU,SAAD,UAAS,KAAqB,aAAf,AAAU,SAAD,UAAS,KAAY,sBAAe,+BAClE,qBAEC,QAAC;AAGV,sBAFF,cAAS;AACM,wBAAb,cAAS,IAAI;;0KAKR,iBACF,8CAAoC,AAAM,aAArB,AAAU,SAAD,UAAS,KAAqB,aAAf,AAAU,SAAD,UAAS,KAAY,sBAAe,qJAGjG,gCACc,uCAAW,WAAS,eAAa,eAC9C,mJAEH,gCACgB,gDAAU,MAAM,IAAG,OAAK,eACrC,2CACG,yBACC,SAAC,SAAS;AACjB,gCAAG,AAAS,QAAD;AACT,0BAAO,sBAAgB,OAAO,EAAE,QAAQ;;AAExC,0BAAO,8BACE,kEACO,6CAA6C,AAAM,aAArB,AAAU,SAAD,UAAS,KAAqB,aAAf,AAAU,SAAD,UAAS,KAAY,sBAAe;;;IAUnI;oBAEoC,SAAuB;AAEzD,YAAO,iCACO,yBACR,gCAAW,OAAO,EAAE,QAAQ;IAGpC;;;IA3FO;;;EA6FT;;;;;;;;;;;;;;;MAvGM,iBAAO","file":"../../../../../../../../packages/realtime/pages/home/home_page.dart.lib.js"}');
+  // Exports:
+  return {
+    pages__home__home_page: home_page
+  };
+}));
+
+//# sourceMappingURL=home_page.dart.lib.js.map

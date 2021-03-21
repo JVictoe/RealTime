@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Izmantojiet starpliktuvi pakalpojumā Office Online, lai varētu izgriezt, kopēt un ielīmēt no kontekstizvēlnes un lentes joslas."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online kopēšana un ielīmēšana"
+   }
+}

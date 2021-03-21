@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "В Office Online для копирования, вырезания и вставки вы можете пользоваться буфером обмена с помощью соответствующих элементов контекстного меню или ленты."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Копирование и вставка в Office Online"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Onlineలో మీ క్లిప్‌బోర్డ్‌ని ఉపయోగించండి, దాని వల్ల మీరు కుడి-క్లిక్ మెను మరియు రిబ్బన్ బార్ నుండి కత్తిరించవచ్చు, కాపీ చేయవచ్చు మరియు అతిరించవచ్చు.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online కాపీ మరియు అతికించు"
+   }
+}

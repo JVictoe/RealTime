@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Vo svojej schránke v Office Online môžete pomocou ponuky pravého tlačidla myši alebo pásu s nástrojmi vystrihovať, kopírovať a prilepovať objekty."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Rozšírenie na kopírovanie a prilepovanie v Office Online"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "നിങ്ങളുടെ Office ഓൺലൈനിലെ പകർപ്പിടം ഉപയോഗിക്കുക, അതുവഴി വലത് ക്ലിക്ക് മെനുവിൽ നിന്നും റിബൺ ബാറിൽ നിന്നും നിങ്ങൾക്ക് മുറിക്കാവുന്നതും പകർത്താവുന്നതും ഒട്ടിക്കാവുന്നതുമാണ്."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online പകർത്തലും ഒട്ടിക്കലും"
+   }
+}

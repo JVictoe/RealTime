@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "在 Office Online 中使用剪貼簿，透過捷徑功能表和功能區執行剪下、複製、貼上等操作。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online 複製與貼上"
+   }
+}

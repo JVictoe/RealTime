@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Sử dụng bảng tạm trong Office Online để bạn có thể cắt, sao chép và dán từ menu bấm chuột phải và từ thanh ruy băng."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Sao chép và Dán trên Office Online"
+   }
+}

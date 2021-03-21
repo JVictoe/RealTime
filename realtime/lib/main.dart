@@ -10,10 +10,13 @@ void main() async{
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
+    DateTime currently = DateTime.now();
+
     return MaterialApp(
       title: 'Real Time',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: currently.hour >= 06 && currently.hour <= 17 ? Colors.white : Colors.black,
       ),
       builder: (context, widget) {
         return ResponsiveWrapper.builder(
@@ -22,7 +25,8 @@ class MyApp extends StatelessWidget {
             minWidth: 450,
             defaultName: MOBILE,
             breakpoints: [
-              ResponsiveBreakpoint.resize(450, name: MOBILE)
+              ResponsiveBreakpoint.resize(450, name: MOBILE),
+              ResponsiveBreakpoint.resize(800, name: TABLET),
             ]
         );
       },

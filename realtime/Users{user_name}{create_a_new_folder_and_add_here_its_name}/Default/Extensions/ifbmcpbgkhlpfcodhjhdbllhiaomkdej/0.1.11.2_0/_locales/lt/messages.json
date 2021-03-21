@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Naudokite „Office Online“ mainų sritį, kad galėtumėte iškirpti, kopijuoti ir įklijuoti naudodami dešiniojo pelės mygtuko meniu ir juostelę."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "„Office Online“ kopijavimas ir įklijavimas"
+   }
+}

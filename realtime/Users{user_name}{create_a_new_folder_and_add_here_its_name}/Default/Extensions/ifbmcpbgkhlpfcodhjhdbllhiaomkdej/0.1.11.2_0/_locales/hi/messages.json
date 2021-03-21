@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online में अपने क्लिप बोर्ड का उपयोग करें, ताकि आप राइट-क्लिक मेनू और रिबन पट्टी से काट सकें प्रतिलिपि बना सकें और चिपका सकें."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online प्रतिलिपि बनाना और चिपकाना"
+   }
+}

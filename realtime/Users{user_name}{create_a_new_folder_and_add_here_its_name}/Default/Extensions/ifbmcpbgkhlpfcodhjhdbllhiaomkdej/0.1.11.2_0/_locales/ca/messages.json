@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Utilitzeu el porta-retalls de l'Office Online per retallar, copiar i enganxar des del menú desplegable i la pestanya de la franja."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Copia i enganxa de l'Office Online"
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_security_policy": "default-src 'none'; script-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "matches": [ "https://*.officeapps.live.com/*", "https://*.partner.officewebapps.cn/*", "https://*.gov.online.office365.us/*", "https://*.dod.online.office365.us/*", "https://project.microsoft.com/*" ]
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmp2qFz1h+JVQgET5pVpagY/V8irNnPtT28E0lktmGiCrogrHXwLLYK17D7nK8SmdhZUfKN2/FB4BKBKsDlx4EHcRMI0UETrXEMlxCkwUPwc9/9AyqEfDaI9mQg9fJTE8uswTHOKZhmUwoMehhSdYPLe52NDGPcvBlQ/y6b20z0IrX4wclNRPae9+oBoAUju06LoVesEyIzJb2QCeqximdlMcJkqS2tSKkTeYL+oJMuMou/Um6LfoQj/FPK2bsyJcU826HmBrIsFXoo3D+XAxLCVznxlyldjusLsjpxxVPFem+rUdxX5/ZjB9SkXpgJOis/5zB/3APh5+xblyiTAYtQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26",
+   "name": "__MSG_appName__",
+   "permissions": [ "clipboardWrite", "clipboardRead" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.11.2"
+}

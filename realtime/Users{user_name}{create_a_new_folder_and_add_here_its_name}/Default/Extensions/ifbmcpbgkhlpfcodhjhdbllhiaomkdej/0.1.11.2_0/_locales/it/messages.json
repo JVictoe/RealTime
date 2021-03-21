@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Usare gli Appunti in Office Online per tagliare, copiare e incollare elementi dal menu di scelta rapida e dalla barra multifunzione."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Copia e Incolla in Office Online"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Χρησιμοποιήστε το Πρόχειρό σας στο Office Online, ώστε να έχετε τη δυνατότητα για αποκοπή, αντιγραφή και επικόλληση από το μενού συντόμευσης και την κορδέλα.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Αντιγραφή και επικόλληση στο Office Online"
+   }
+}

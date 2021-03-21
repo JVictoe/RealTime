@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "在 Office Online 中使用剪贴板，通过右键菜单和功能区剪切、复制和粘贴内容。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online 复制和粘贴"
+   }
+}

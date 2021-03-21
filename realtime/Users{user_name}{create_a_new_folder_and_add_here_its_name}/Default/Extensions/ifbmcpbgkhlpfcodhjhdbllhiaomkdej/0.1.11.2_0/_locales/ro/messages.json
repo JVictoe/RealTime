@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Utilizați clipboardul în Office Online astfel încât să puteți decupa, copia și lipi cu ajutorul meniului contextual și al panglicii."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Copiere și lipire Office Online"
+   }
+}

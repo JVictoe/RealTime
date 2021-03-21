@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Gunakan papan klip anda pada Office Online agar anda boleh memotong, menyalin dan menampal daripada menu klik kanan dan bar reben."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Salin dan Tampal pada Office Online"
+   }
+}

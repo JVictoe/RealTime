@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Gunakan clipboard di Office Online agar Anda dapat memotong, menyalin, dan menempel dari menu klik kanan dan bilah pita.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Salin dan Tempel Office Online"
+   }
+}

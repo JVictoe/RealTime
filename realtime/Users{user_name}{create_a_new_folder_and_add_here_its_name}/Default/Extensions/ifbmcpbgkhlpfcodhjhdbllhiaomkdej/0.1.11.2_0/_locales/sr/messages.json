@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Користите оставу у услузи Office Online да бисте могли да исецате, копирате и налепљујете из приручног менија и трака."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online копирање и лепљење"
+   }
+}

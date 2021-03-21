@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "השתמש בלוח שלך ב- Office Online כך שתוכל לגזור, להעתיק ולהדביק מתפריט הלחיצה הימנית ומסרגל רצועת הכלים.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "העתקה והדבקה מ- Office Online"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Koristite međuspremnik u sustavu Office Online da biste rezali, kopirali i lijepili putem izbornika dostupnog nakon klika desnom tipkom miša i vrpce.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopiranje i lijepljenje u sustavu Office Online"
+   }
+}

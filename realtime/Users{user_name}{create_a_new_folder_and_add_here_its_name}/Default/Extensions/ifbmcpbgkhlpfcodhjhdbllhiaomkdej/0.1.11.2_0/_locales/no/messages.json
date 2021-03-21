@@ -1,0 +1,10 @@
+﻿{
+    "appName": {
+        "message": "Kopiering og innliming i Office Online",
+        "description": "The title of the application, displayed in the web store."
+    },
+    "appDescription": {
+        "message": "Bruk utklippstavlen i Office Online, slik at du kan klippe ut, kopiere og lime inn fra høyreklikkmenyen og båndet.",
+        "description": "The description of the application, displayed in the web store."
+    }
+}

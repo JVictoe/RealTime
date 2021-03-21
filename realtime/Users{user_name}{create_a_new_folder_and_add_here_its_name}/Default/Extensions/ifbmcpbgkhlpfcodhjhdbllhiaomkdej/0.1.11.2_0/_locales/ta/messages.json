@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Online -இல் உங்கள் நகலகத்தை உபயோகியுங்கள், இதனால் வலது-கிளிக் மெனு மற்றும் ரிப்பன் பட்டி ஆகியவற்றிலிருந்து வெட்டுதல், நகலெடுத்தல், ஒட்டுதல் போன்றவற்றைச் செய்யலாம்."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online நகலெடு மற்றும் ஒட்டு"
+   }
+}

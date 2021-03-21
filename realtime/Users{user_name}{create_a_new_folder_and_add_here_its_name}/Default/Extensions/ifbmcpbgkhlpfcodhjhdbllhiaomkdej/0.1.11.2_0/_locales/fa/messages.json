@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "با استفاده از کلیپ بورد خود در Office Online می توانید عملکردهای بریدن، کپی و جای گذاری را از طریق منوی راست-کلیک و نوار روبان انجام دهید.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "کپی و جای گذاری Office Online"
+   }
+}

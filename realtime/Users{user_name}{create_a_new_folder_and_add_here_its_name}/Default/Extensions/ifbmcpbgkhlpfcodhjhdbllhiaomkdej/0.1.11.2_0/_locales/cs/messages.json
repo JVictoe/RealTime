@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Pomocí schránky Office Online můžete vyjmout, kopírovat a vložit položky z nabídky, která se zobrazí po kliknutí pravým tlačítkem myši a po kliknutí na tlačítko na pásu karet."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kopírování a vkládání v Office Online"
+   }
+}

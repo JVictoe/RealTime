@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Tumia ubaonakili wako kwenye Office Online ili uweze kukata, kunakili, na kubandika kutoka kwenye menyu ya kubofya mara mbili na upau wa riboni."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Kunakili na Kubandika kwenye Office Online"
+   }
+}

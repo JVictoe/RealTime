@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "በOffice Online ከግራ መዳፊት ምናሌ እና ጥብጣብ አሞሌ የእርስዎን የቅንጥብ ሰሌዳ ተጠቅመው መቁረጥ፣ መቀዳት፣ እና መለጠፍ ይችሉ  ዘንድ።"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online ቅዳና ለጥፍ"
+   }
+}

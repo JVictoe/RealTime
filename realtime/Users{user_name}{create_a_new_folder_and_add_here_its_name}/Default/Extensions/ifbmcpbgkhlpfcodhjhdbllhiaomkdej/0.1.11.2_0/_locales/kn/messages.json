@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Onlineನಲ್ಲಿ ನಿಮ್ಮ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಬಳಸಿ, ಹೀಗಾಗಿ ನೀವು ಬಲ-ಕ್ಲಿಕ್ ಮೆನು ಮತ್ತು ರಿಬ್ಬನ್ ಮೆನುವಿನಿಂದ ಕತ್ತರಿಸಬಹುದು, ನಕಲಿಸಬಹುದು ಹಾಗೂ ಅಂಟಿಸಬಹುದು.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Onlineನಲ್ಲಿ ನಕಲಿಸುವುದು ಮತ್ತು ಅಂಟಿಸುವುದು"
+   }
+}

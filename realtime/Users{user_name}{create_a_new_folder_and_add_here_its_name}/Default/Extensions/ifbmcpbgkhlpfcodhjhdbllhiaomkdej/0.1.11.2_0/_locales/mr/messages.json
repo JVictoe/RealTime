@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "आपला क्लिपबोर्ड Office Online मध्ये वापरा जेणेकरून उजवा-क्लिक मेनू आणि रिबन बारमधून आपण कापू शकता, प्रतिलिपी करू शकता आणि चिकटवू शकता."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online प्रतिलिपी करा आणि चिकटवा"
+   }
+}

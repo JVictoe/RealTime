@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "ใช้คลิปบอร์ดของคุณใน Office Online เพื่อให้คุณสามารถตัด คัดลอก และวางได้จากเมนูคลิกขวาและแถบ Ribbon"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "การคัดลอกและวางของ Office Online"
+   }
+}

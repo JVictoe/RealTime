@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Office Onlinen leikepöydän avulla voit käyttää Leikkaa-, Kopioi- ja Liitä-toimintoja joko hiiren kakkospainikevalikossa tai valintanauhassa.​"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Office Online Kopioi ja Liitä"
+   }
+}

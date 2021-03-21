@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Utilice el portapapeles de Office Online para cortar, copiar y pegar desde el menú contextual y la barra de cinta."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Copiar y pegar de Office Online"
+   }
+}
