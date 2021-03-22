@@ -178,54 +178,85 @@ class InfoCidade extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][1]["date"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][1]["weekday"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Máxima ${snapshot.data["results"]["forecast"][1]["max"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Minima ${snapshot.data["results"]["forecast"][1]["min"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][1]["description"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][1]["date"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
                                 ),
-                                overflow: TextOverflow.visible,
-                                maxLines: 3,
-                                minFontSize: 13,
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][1]["weekday"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_full,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][1]["max"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_empty,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][1]["min"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][1]["description"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                                  ),
+                                  overflow: TextOverflow.visible,
+                                  maxLines: 3,
+                                  minFontSize: 13,
+                                ),
                               ),
                             ),
                           ],
@@ -239,54 +270,85 @@ class InfoCidade extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][2]["date"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][2]["weekday"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Máxima ${snapshot.data["results"]["forecast"][2]["max"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Minima ${snapshot.data["results"]["forecast"][2]["min"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][2]["description"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][2]["date"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
                                 ),
-                                overflow: TextOverflow.visible,
-                                maxLines: 3,
-                                minFontSize: 13,
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][2]["weekday"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_empty,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][2]["max"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_empty,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][2]["min"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][2]["description"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                                  ),
+                                  overflow: TextOverflow.visible,
+                                  maxLines: 3,
+                                  minFontSize: 13,
+                                ),
                               ),
                             ),
                           ],
@@ -300,54 +362,85 @@ class InfoCidade extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][3]["date"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][3]["weekday"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Máxima ${snapshot.data["results"]["forecast"][3]["max"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                'Minima ${snapshot.data["results"]["forecast"][3]["min"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
-                                overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                minFontSize: 10,
-                              ),
-                            ),
-                            Expanded(
-                              child: AutoSizeText(
-                                '${snapshot.data["results"]["forecast"][3]["description"]}',
-                                style: TextStyle(
-                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][3]["date"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
                                 ),
-                                overflow: TextOverflow.visible,
-                                maxLines: 3,
-                                minFontSize: 13,
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][3]["weekday"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  minFontSize: 10,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_full,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][3]["max"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    FontAwesome.thermometer_empty,
+                                    size: 20,
+                                    color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white,
+                                  ),
+                                  AutoSizeText(
+                                    '${snapshot.data["results"]["forecast"][3]["min"]}',
+                                    style: TextStyle(
+                                        color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15),
+                                    overflow: TextOverflow.ellipsis,
+                                    maxLines: 1,
+                                    minFontSize: 10,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 5,),
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: AutoSizeText(
+                                  '${snapshot.data["results"]["forecast"][3]["description"]}',
+                                  style: TextStyle(
+                                      color: currently.hour >= 06 && currently.hour <= 17 ? Colors.black : Colors.white, fontSize: 15,
+                                  ),
+                                  overflow: TextOverflow.visible,
+                                  maxLines: 3,
+                                  minFontSize: 13,
+                                ),
                               ),
                             ),
                           ],

@@ -2,6 +2,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:realtime/pages/drawercuston/drawer_custon.dart';
 import 'package:realtime/pages/infocidade/info_cidades.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 const API_KEY = "31997bc5";
@@ -13,6 +14,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final nameHolder = TextEditingController();
+
+  limparCampo(){
+    nameHolder.clear();
+  }
 
   String search;
 
@@ -51,6 +57,11 @@ class _HomePageState extends State<HomePage> {
               title: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: TextField(
+                  controller: nameHolder,
+                  autofocus: true,
+                  autocorrect: true,
+                  textAlign: TextAlign.start,
+                  enableSuggestions: true,
                   decoration: InputDecoration(
                     hintText: "Pesquise uma cidade",
                     hintStyle: TextStyle(
@@ -64,6 +75,7 @@ class _HomePageState extends State<HomePage> {
                   onSubmitted: (text) {
                     setState(() {
                       search = text;
+                      limparCampo();
                     });
                   },
                 ),
@@ -74,7 +86,9 @@ class _HomePageState extends State<HomePage> {
           ),
           drawer: Padding(
             padding: EdgeInsets.only(left: 10, top: 100, bottom: 20),
-            child: Drawer(),
+            child: Theme(
+                data: Theme.of(context).copyWith(canvasColor: Colors.transparent),
+                child: DrawerCuston()),
           ),
           body: Padding(
             padding: EdgeInsets.only(top: tablet ? 60 : 50),
